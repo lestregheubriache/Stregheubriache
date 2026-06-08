@@ -56,7 +56,7 @@ export default function ContattiPage() {
               Dove
             </dt>
             <dd className="font-[var(--serif)] text-[22px] italic">
-              Centro storico<br />
+              Via Vincenzo Gioberti, 6<br />
               <span className="text-[16px] font-[var(--sans)] not-italic text-[var(--cream-mute)]">
                 00044 Frascati (RM) · Italia
               </span>

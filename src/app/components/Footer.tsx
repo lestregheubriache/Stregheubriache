@@ -53,7 +53,7 @@ export default function Footer() {
               Trovaci
             </h4>
             <ul className="flex flex-col gap-[10px] text-[13px] list-none">
-              <li className="text-[var(--cream-mute)]">Centro storico</li>
+              <li className="text-[var(--cream-mute)]">Via Vincenzo Gioberti, 6</li>
               <li className="text-[var(--cream-mute)]">00044 Frascati (RM)</li>
               <li>
                 <a href="tel:+390694921645" className="hover:text-[var(--ember)] transition-colors">

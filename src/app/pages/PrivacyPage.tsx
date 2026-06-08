@@ -10,7 +10,7 @@ const sections: Section[] = [
   {
     title: "Chi siamo",
     body: [
-      "Il presente sito web è gestito da Le Streghe Ubriache, ristorante e cocktail bar con sede nel centro storico di Frascati (RM), P.IVA 06247021006.",
+      "Il presente sito web è gestito da Le Streghe Ubriache, ristorante e cocktail bar con sede in Via Vincenzo Gioberti, 6, 00044 Frascati (RM), P.IVA 06247021006.",
       "Per qualsiasi informazione relativa al trattamento dei tuoi dati personali puoi contattarci all’indirizzo: lestregheubriachesince2003@gmail.com oppure al numero +39 06 94921645 (anche WhatsApp).",
     ]
   },

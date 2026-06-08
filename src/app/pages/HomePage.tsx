@@ -23,7 +23,7 @@ const T = {
     heroMenu: 'Esplora il menù',
     heroBook: 'Prenota su WhatsApp',
     infoStrip: [
-      { label: 'Dove', value: 'Centro storico\ndi Frascati', link: GMAPS },
+      { label: 'Dove', value: 'Via Vincenzo Gioberti, 6\nFrascati (RM)', link: GMAPS },
       { label: 'Quando', value: 'Mer — Dom · dalle 18\nDom anche a pranzo 12:30–15', link: 'https://share.google/z1JEYaXGlAt39EFDd' },
       { label: 'Specialità', value: 'Pane, pasta, porchetta\ne dolci fatti in casa · prodotti km 0', link: '#specialita' },
       { label: 'Formule', value: 'Aperitivo · cena\ndopocena · pranzo domenica' },
@@ -78,7 +78,7 @@ const T = {
     heroMenu: 'Explore the menu',
     heroBook: 'Book via WhatsApp',
     infoStrip: [
-      { label: 'Where', value: 'Old town\nFrascati', link: GMAPS },
+      { label: 'Where', value: 'Via Vincenzo Gioberti, 6\nFrascati (RM)', link: GMAPS },
       { label: 'When', value: 'Wed — Sun · from 18:00\nSun also lunch 12:30–15' },
       { label: 'Speciality', value: 'Bread, pasta, porchetta\n& homemade desserts · km 0' },
       { label: 'Formule', value: 'Aperitivo · dinner\nafter dinner · Sunday lunch' },
