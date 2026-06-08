@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { useEffect, useState } from 'react';
+import logoImg from '../../imports/IMG_0464_2.png';
 
 export default function Footer() {
   const [year, setYear] = useState(new Date().getFullYear());
@@ -17,8 +18,15 @@ export default function Footer() {
 
           {/* Brand — full width on mobile */}
           <div className="col-span-2 sm:col-span-1">
-            <div className="font-[var(--serif)] italic text-[28px] leading-[1.1] mb-[12px]">
-              Le Streghe<br />Ubriache
+            <div className="flex items-center gap-[12px] mb-[12px]">
+              <img
+                src={logoImg}
+                alt="Le Streghe Ubriache logo"
+                className="h-[40px] w-auto"
+              />
+              <div className="font-[var(--serif)] italic text-[28px] leading-[1.1]">
+                Le Streghe<br />Ubriache
+              </div>
             </div>
             <p className="text-[13px] text-[var(--cream-mute)] leading-[1.55]">
               Cucina &amp; Cocktail Bar

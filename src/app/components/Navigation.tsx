@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router';
+import logoImg from '../../imports/IMG_0464_2.png';
 
 interface NavigationProps {
   solid?: boolean;
@@ -20,15 +21,13 @@ export default function Navigation({ solid = false }: NavigationProps) {
     >
       <Link
         to="/"
-        className="flex items-center gap-[10px] font-[var(--serif)] italic text-[22px] tracking-[0.01em]"
+        className="flex items-center gap-[12px] font-[var(--serif)] italic text-[22px] tracking-[0.01em]"
         aria-label="Le Streghe Ubriache home"
       >
-        <span
-          className="inline-block w-[6px] h-[6px] rounded-full bg-[var(--ember)]"
-          style={{
-            boxShadow: '0 0 0 1px rgba(245,237,224,.3), 0 0 12px 1px rgba(255,179,102,.45)'
-          }}
-          aria-hidden="true"
+        <img
+          src={logoImg}
+          alt="Le Streghe Ubriache logo"
+          className="h-[36px] w-auto"
         />
         <span>Le Streghe Ubriache</span>
       </Link>
