@@ -9,6 +9,7 @@
 import { useState } from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import whiskyPdf from '../../imports/whisky_.pdf';
 
 /* ─── Types ─────────────────────────────────────────────────── */
 type Lang = 'it' | 'en';
@@ -23,6 +24,7 @@ interface Item {
 interface SubSection {
   title: { it: string; en: string };
   items: Item[];
+  pdfLink?: string;
 }
 
 interface MenuSection {
@@ -347,6 +349,7 @@ const MENU_SECTIONS: MenuSection[] = [
       },
       {
         title: { it: 'Whisky & Whiskey', en: 'Whisky & Whiskey' },
+        pdfLink: whiskyPdf,
         items: [
           { it: 'Lagavulin 16', en: 'Lagavulin 16', price: '12,00 €' },
           { it: 'Nobushi Japanese Whisky', en: 'Nobushi Japanese Whisky', price: '8,00 €' },
@@ -505,6 +508,18 @@ function SubSectionAccordion({ sub, lang }: { sub: SubSection; lang: Lang }) {
                 )}
               </div>
             ))}
+            {sub.pdfLink && (
+              <div className="pt-[16px]">
+                <a
+                  href={sub.pdfLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-[8px] border border-[var(--rule-strong)] px-[18px] py-[10px] rounded-full font-[var(--mono)] text-[11px] tracking-[0.22em] uppercase text-[var(--cream)] transition-all duration-[250ms] hover:bg-[var(--cream)] hover:text-[var(--ink)] hover:border-[var(--cream)]"
+                >
+                  Scopri di più →
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>
