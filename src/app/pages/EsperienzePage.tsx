@@ -60,7 +60,7 @@ function ExperienceCard({ card }: { card: ExpCard }) {
         <span className="font-[var(--mono)] text-[10px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
           {card.tag}
         </span>
-        <h3 className="font-[var(--serif)] italic mt-[8px] text-[clamp(22px,2.5vw,32px)] leading-[1.1]">
+        <h3 className="font-[var(--serif)] mt-[8px] text-[clamp(22px,2.5vw,32px)] leading-[1.1]">
           {card.title}
         </h3>
       </div>
@@ -68,7 +68,7 @@ function ExperienceCard({ card }: { card: ExpCard }) {
         {card.copy}
       </p>
       {card.price && (
-        <p className="font-[var(--serif)] italic text-[clamp(22px,2.5vw,30px)]" style={{ color: '#c0392b' }}>
+        <p className="font-[var(--serif)] text-[clamp(22px,2.5vw,30px)]" style={{ color: '#c0392b' }}>
           {card.price}
         </p>
       )}
@@ -160,10 +160,10 @@ export default function EsperienzePage() {
           <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)] block mb-[24px]">
             Esperienze · Le Streghe Ubriache
           </span>
-          <h1 className="italic text-[clamp(48px,9vw,120px)] leading-[1.0] tracking-[-0.01em]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
+          <h1 className="text-[clamp(48px,9vw,120px)] leading-[1.0] tracking-[-0.01em]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
             Le nostre esperienze
           </h1>
-          <p className="font-[var(--serif)] italic text-[clamp(20px,3vw,40px)] leading-[1.1] mt-[16px]" style={{ color: '#c0392b' }}>
+          <p className="font-[var(--serif)] text-[clamp(20px,3vw,40px)] leading-[1.1] mt-[16px]" style={{ color: '#c0392b' }}>
             Drinking Class & Cooking Class
           </p>
           <p className="mt-[24px] mx-auto text-[var(--cream-mute)] text-[17px] max-w-[60ch]">
@@ -181,7 +181,7 @@ export default function EsperienzePage() {
       <section className="px-[var(--gutter)] py-[28px] border-b border-[var(--rule)]" style={{ background: '#c0392b' }}>
         <div className="max-w-[var(--maxw)] mx-auto flex items-center justify-between gap-[24px] flex-wrap">
           <div>
-            <p className="font-[var(--serif)] italic text-[clamp(28px,4vw,48px)] leading-[1.0] text-white">
+            <p className="font-[var(--serif)] text-[clamp(28px,4vw,48px)] leading-[1.0] text-white">
               Drinking Class
             </p>
           </div>
@@ -195,7 +195,7 @@ export default function EsperienzePage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
               L'esperienza nel dettaglio
             </span>
-            <h2 className="font-[var(--serif)] italic mt-[18px] text-[clamp(32px,4.5vw,60px)] leading-[1.02]">
+            <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(32px,4.5vw,60px)] leading-[1.02]">
               Un'esperienza indimenticabile<br />nei Castelli Romani.
             </h2>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] leading-[1.7]">
@@ -223,7 +223,7 @@ export default function EsperienzePage() {
                     {s.num}
                   </span>
                   <div>
-                    <p className="font-[var(--serif)] italic text-[18px] mb-[6px]">{s.title}</p>
+                    <p className="font-[var(--serif)] text-[18px] mb-[6px]">{s.title}</p>
                     <p className="text-[var(--cream-mute)] text-[14px] leading-[1.6]">{s.body}</p>
                   </div>
                 </div>
@@ -236,7 +236,7 @@ export default function EsperienzePage() {
                 <span className="font-[var(--mono)] text-[10px] tracking-[0.28em] uppercase text-[var(--cream-mute)]">
                   Prezzo a persona
                 </span>
-                <p className="font-[var(--serif)] italic text-[clamp(40px,5vw,72px)] leading-[1.0] mt-[8px]" style={{ color: '#c0392b' }}>
+                <p className="font-[var(--serif)] text-[clamp(40px,5vw,72px)] leading-[1.0] mt-[8px]" style={{ color: '#c0392b' }}>
                   € 39,00
                 </p>
               </div>
@@ -282,7 +282,7 @@ export default function EsperienzePage() {
       <section className="px-[var(--gutter)] py-[28px] border-b border-[var(--rule)]" style={{ background: '#8b6f47' }}>
         <div className="max-w-[var(--maxw)] mx-auto flex items-center justify-between gap-[24px] flex-wrap">
           <div>
-            <p className="font-[var(--serif)] italic text-[clamp(28px,4vw,48px)] leading-[1.0] text-white">
+            <p className="font-[var(--serif)] text-[clamp(28px,4vw,48px)] leading-[1.0] text-white">
               Cooking Class
             </p>
           </div>
@@ -296,7 +296,7 @@ export default function EsperienzePage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
               L'esperienza in cucina
             </span>
-            <h2 className="font-[var(--serif)] italic mt-[18px] text-[clamp(32px,4.5vw,60px)] leading-[1.02]">
+            <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(32px,4.5vw,60px)] leading-[1.02]">
               Mani in pasta,<br />come tradizione.
             </h2>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] leading-[1.7]">
@@ -323,7 +323,7 @@ export default function EsperienzePage() {
                     {s.num}
                   </span>
                   <div>
-                    <p className="font-[var(--serif)] italic text-[18px] mb-[6px]">{s.title}</p>
+                    <p className="font-[var(--serif)] text-[18px] mb-[6px]">{s.title}</p>
                     <p className="text-[var(--cream-mute)] text-[14px] leading-[1.6]">{s.body}</p>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ export default function EsperienzePage() {
                 <span className="font-[var(--mono)] text-[10px] tracking-[0.28em] uppercase text-[var(--cream-mute)]">
                   Prezzo a persona
                 </span>
-                <p className="font-[var(--serif)] italic text-[clamp(40px,5vw,72px)] leading-[1.0] mt-[8px]" style={{ color: '#8b6f47' }}>
+                <p className="font-[var(--serif)] text-[clamp(40px,5vw,72px)] leading-[1.0] mt-[8px]" style={{ color: '#8b6f47' }}>
                   € 45,00
                 </p>
               </div>
@@ -380,7 +380,7 @@ export default function EsperienzePage() {
           <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
             Tanti modi di viverla
           </span>
-          <h2 className="font-[var(--serif)] italic mt-[18px] text-[clamp(32px,5vw,72px)] leading-[1.02] mb-[56px]">
+          <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(32px,5vw,72px)] leading-[1.02] mb-[56px]">
             Non solo un'esperienza.<br />Un'occasione.
           </h2>
 
@@ -399,7 +399,7 @@ export default function EsperienzePage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
               Cene aziendali & eventi privati
             </span>
-            <h2 className="font-[var(--serif)] italic mt-[18px] text-[clamp(32px,5vw,72px)] leading-[1.02]">
+            <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(32px,5vw,72px)] leading-[1.02]">
               La cantina,<br />tutta per voi.
             </h2>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] leading-[1.7]">
@@ -469,14 +469,14 @@ export default function EsperienzePage() {
           <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)] block text-center mb-[24px]">
             Informazioni pratiche
           </span>
-          <h2 className="font-[var(--serif)] italic text-[clamp(32px,5vw,64px)] leading-[1.02] text-center mb-[64px]">
+          <h2 className="font-[var(--serif)] text-[clamp(32px,5vw,64px)] leading-[1.02] text-center mb-[64px]">
             Cosa sapere prima di venire.
           </h2>
 
           <div className="grid grid-cols-[1fr_1fr] gap-[clamp(40px,7vw,100px)] max-[860px]:grid-cols-1">
             {/* Drinking class info */}
             <div>
-              <h3 className="font-[var(--serif)] italic text-[clamp(24px,3vw,40px)] leading-[1.1] mb-[32px]">
+              <h3 className="font-[var(--serif)] text-[clamp(24px,3vw,40px)] leading-[1.1] mb-[32px]">
                 Drinking Class
               </h3>
               <dl className="space-y-[0px]">
@@ -491,7 +491,7 @@ export default function EsperienzePage() {
                 ].map((item, i) => (
                   <div key={i} className="grid grid-cols-[120px_1fr] gap-[12px] border-b border-[var(--rule)] py-[16px]">
                     <dt className="font-[var(--mono)] text-[10px] tracking-[0.24em] uppercase text-[var(--cream-mute)] pt-[4px]">{item.dt}</dt>
-                    <dd className="font-[var(--serif)] italic text-[17px]">{item.dd}</dd>
+                    <dd className="font-[var(--serif)] text-[17px]">{item.dd}</dd>
                   </div>
                 ))}
               </dl>
@@ -502,7 +502,7 @@ export default function EsperienzePage() {
 
             {/* Cooking class info */}
             <div>
-              <h3 className="font-[var(--serif)] italic text-[clamp(24px,3vw,40px)] leading-[1.1] mb-[32px]">
+              <h3 className="font-[var(--serif)] text-[clamp(24px,3vw,40px)] leading-[1.1] mb-[32px]">
                 Cooking Class
               </h3>
               <dl className="space-y-[0px]">
@@ -517,7 +517,7 @@ export default function EsperienzePage() {
                 ].map((item, i) => (
                   <div key={i} className="grid grid-cols-[120px_1fr] gap-[12px] border-b border-[var(--rule)] py-[16px]">
                     <dt className="font-[var(--mono)] text-[10px] tracking-[0.24em] uppercase text-[var(--cream-mute)] pt-[4px]">{item.dt}</dt>
-                    <dd className="font-[var(--serif)] italic text-[17px]">{item.dd}</dd>
+                    <dd className="font-[var(--serif)] text-[17px]">{item.dd}</dd>
                   </div>
                 ))}
               </dl>
@@ -557,7 +557,7 @@ export default function EsperienzePage() {
             </ul>
             <div className="mt-[32px] pt-[24px] border-t border-[var(--rule)] flex items-end justify-between gap-[16px]">
               <div>
-                <p className="font-[var(--serif)] italic text-[clamp(28px,3.5vw,40px)]" style={{ color: '#c0392b' }}>€ 39,00</p>
+                <p className="font-[var(--serif)] text-[clamp(28px,3.5vw,40px)]" style={{ color: '#c0392b' }}>€ 39,00</p>
                 <span className="font-[var(--mono)] text-[10px] tracking-[0.18em] text-[var(--cream-mute)]">a persona · tutto incluso</span>
               </div>
               <WAButton text="Salve, vorrei prenotare la Drinking Class." label="Prenota →" variant="red" />
@@ -589,7 +589,7 @@ export default function EsperienzePage() {
             </ul>
             <div className="mt-[32px] pt-[24px] border-t border-[var(--rule)] flex items-end justify-between gap-[16px]">
               <div>
-                <p className="font-[var(--serif)] italic text-[clamp(28px,3.5vw,40px)]" style={{ color: '#8b6f47' }}>€ 45,00</p>
+                <p className="font-[var(--serif)] text-[clamp(28px,3.5vw,40px)]" style={{ color: '#8b6f47' }}>€ 45,00</p>
                 <span className="font-[var(--mono)] text-[10px] tracking-[0.18em] text-[var(--cream-mute)]">a persona · tutto incluso</span>
               </div>
               <WAButton text="Salve, vorrei prenotare la Cooking Class." label="Prenota →" variant="red" />
@@ -611,8 +611,8 @@ export default function EsperienzePage() {
         <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
           Solo su prenotazione · ogni occasione
         </span>
-        <h2 className="font-[var(--serif)] italic mt-[24px] text-[clamp(44px,8vw,120px)] leading-[1.0] tracking-[-0.01em]">
-          Vieni a bere<br /><span className="italic">con noi.</span>
+        <h2 className="font-[var(--serif)] mt-[24px] text-[clamp(44px,8vw,120px)] leading-[1.0] tracking-[-0.01em]">
+          Vieni a bere<br /><span>con noi.</span>
         </h2>
         <p className="mt-[24px] mx-auto text-[var(--cream-mute)] max-w-[48ch] text-[16px] leading-[1.65]">
           Un regalo, una festa, una serata di team building o una cena aziendale esclusiva.

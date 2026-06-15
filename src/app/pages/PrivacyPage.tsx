@@ -82,7 +82,7 @@ export default function PrivacyPage() {
           <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--ember)] block mb-[20px]">
             Documento legale
           </span>
-          <h1 className="italic text-[clamp(48px,8vw,96px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
+          <h1 className="text-[clamp(48px,8vw,96px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
             Privacy &amp;<br />Cookie Policy
           </h1>
           <p className="mt-[28px] text-[var(--cream-mute)] text-[16px] leading-[1.7] max-w-[60ch]">
@@ -102,7 +102,7 @@ export default function PrivacyPage() {
                 <span className="font-[var(--mono)] text-[10px] tracking-[0.28em] uppercase text-[var(--ember)]">
                   {String(i + 1).padStart(2, '0')}
                 </span>
-                <p className="font-[var(--serif)] italic text-[17px] mt-[6px] leading-[1.3]">{s.title}</p>
+                <p className="font-[var(--serif)] text-[17px] mt-[6px] leading-[1.3]">{s.title}</p>
               </div>
               <div className="space-y-[14px]">
                 {s.body.map((para, j) => (
@@ -119,7 +119,7 @@ export default function PrivacyPage() {
       {/* Contact strip */}
       <section className="px-[var(--gutter)] py-[48px] border-t border-[var(--rule)]">
         <div className="max-w-[860px] mx-auto flex flex-col sm:flex-row gap-[16px] items-start sm:items-center justify-between">
-          <p className="font-[var(--serif)] italic text-[18px] text-[var(--cream-mute)]">
+          <p className="font-[var(--serif)] text-[18px] text-[var(--cream-mute)]">
             Hai domande sulla tua privacy?
           </p>
           <a

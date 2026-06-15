@@ -471,7 +471,7 @@ function SubSectionAccordion({ sub, lang }: { sub: SubSection; lang: Lang }) {
         onClick={() => setOpen((o) => !o)}
         className="w-full flex items-center justify-between gap-[16px] py-[18px] text-left group"
       >
-        <span className="font-[var(--serif)] italic text-[clamp(15px,2vw,20px)] text-[var(--cream)]">
+        <span className="font-[var(--serif)] text-[clamp(15px,2vw,20px)] text-[var(--cream)]">
           {sub.title[lang]}
         </span>
         <span
@@ -523,7 +523,7 @@ function SectionAccordion({ section, lang }: { section: MenuSection; lang: Lang 
         className="w-full flex items-center justify-between gap-[24px] py-[clamp(20px,3vh,32px)] text-left"
       >
         <div>
-          <h2 className="font-[var(--serif)] italic text-[clamp(32px,4.5vw,64px)] leading-[1.0]">
+          <h2 className="font-[var(--serif)] text-[clamp(32px,4.5vw,64px)] leading-[1.0]">
             {section.title[lang]}
           </h2>
           {section.subtitle && (
@@ -589,7 +589,7 @@ export default function MenuPage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)] block mb-[24px]">
               {lang === 'it' ? 'Il nostro menù' : 'Our menu'}
             </span>
-            <h1 className="italic text-[clamp(56px,10vw,140px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
+            <h1 className="text-[clamp(56px,10vw,140px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
               {lang === 'it' ? <>La cucina<br />di Gianluca.</> : <>Gianluca's<br />Kitchen.</>}
             </h1>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] max-w-[52ch]">
@@ -646,8 +646,8 @@ export default function MenuPage() {
         <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
           {lang === 'it' ? 'Hai scelto?' : 'Ready to book?'}
         </span>
-        <h2 className="font-[var(--serif)] italic mt-[24px] text-[clamp(48px,9vw,130px)] leading-[1.02] tracking-[-0.01em]">
-          {lang === 'it' ? <>Riserva il tavolo,<br /><span className="italic">ti aspettiamo.</span></> : <>Reserve your table,<br /><span className="italic">we'll be waiting.</span></>}
+        <h2 className="font-[var(--serif)] mt-[24px] text-[clamp(48px,9vw,130px)] leading-[1.02] tracking-[-0.01em]">
+          {lang === 'it' ? <>Riserva il tavolo,<br /><span>ti aspettiamo.</span></> : <>Reserve your table,<br /><span>we'll be waiting.</span></>}
         </h2>
         <div className="flex gap-[16px] justify-center flex-wrap mt-[36px]">
           <a

@@ -21,7 +21,7 @@ export default function Navigation({ solid = false }: NavigationProps) {
     >
       <Link
         to="/"
-        className="flex items-center gap-[12px] font-[var(--serif)] italic text-[22px] tracking-[0.01em]"
+        className="flex items-center gap-[12px] font-[var(--serif)] text-[22px] tracking-[0.01em]"
         aria-label="Le Streghe Ubriache home"
       >
         <img

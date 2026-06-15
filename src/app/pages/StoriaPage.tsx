@@ -38,7 +38,7 @@ export default function StoriaPage() {
                          radial-gradient(ellipse 50% 40% at 20% 10%, rgba(85,107,47,.1), transparent 50%)`
           }}
         />
-        <h1 className="italic text-[clamp(64px,11vw,160px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
+        <h1 className="text-[clamp(64px,11vw,160px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
           Sotto le volte<br />di una cantina.
         </h1>
         <p className="mt-[32px] mx-auto text-[var(--cream-mute)] text-[17px] max-w-[60ch]">
@@ -56,7 +56,7 @@ export default function StoriaPage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)]">Cap. I · Il luogo</span>
           </div>
           <div>
-            <h3 className="font-[var(--serif)] italic text-[32px]">Una cantina del Settecento.</h3>
+            <h3 className="font-[var(--serif)] text-[32px]">Una cantina del Settecento.</h3>
             <p className="mt-[20px] text-[17px] leading-[1.7] text-[var(--cream-mute)]">
               Tufo, calce e legno. Le volte basse hanno custodito botti per quasi tre secoli,
               nel cuore di una città che con il vino ha un rapporto antico — Frascati,
@@ -78,7 +78,7 @@ export default function StoriaPage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)]">Cap. II · La cucina</span>
           </div>
           <div>
-            <h3 className="font-[var(--serif)] italic text-[32px]">Gianluca, e il suo tocco.</h3>
+            <h3 className="font-[var(--serif)] text-[32px]">Gianluca, e il suo tocco.</h3>
             <p className="mt-[20px] text-[17px] leading-[1.7] text-[var(--cream-mute)]">
               Da noi tutto ha una marcia in più. Il merito è di Gianluca,
               il nostro cuciniere, che alla tradizione romana aggiunge sempre
@@ -96,7 +96,7 @@ export default function StoriaPage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)]">Cap. III · I dolci</span>
           </div>
           <div>
-            <h3 className="font-[var(--serif)] italic text-[32px]">Rigorosamente fatti in casa.</h3>
+            <h3 className="font-[var(--serif)] text-[32px]">Rigorosamente fatti in casa.</h3>
             <p className="mt-[20px] text-[17px] leading-[1.7] text-[var(--cream-mute)]">
               I dolci nascono in cucina, ogni giorno seguendo la stagione e l'idea della sera.
               È il modo più dolce per dirvi: prendetevi ancora un attimo e restate,
@@ -117,7 +117,7 @@ export default function StoriaPage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)]">Cap. IV · Il bere</span>
           </div>
           <div>
-            <h3 className="font-[var(--serif)] italic text-[32px]">Aperitivo, calice, dopocena.</h3>
+            <h3 className="font-[var(--serif)] text-[32px]">Aperitivo, calice, dopocena.</h3>
             <p className="mt-[20px] text-[17px] leading-[1.7] text-[var(--cream-mute)]">
               Si può venire da noi per un aperitivo — proposte alcoliche e analcoliche,
               accompagnate da taglieri di porchetta home made, affettati e pecorini a chilometro zero
@@ -133,7 +133,7 @@ export default function StoriaPage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)]">Cap. V · L'idea</span>
           </div>
           <div>
-            <h3 className="font-[var(--serif)] italic text-[32px]">Più di un ristorante.</h3>
+            <h3 className="font-[var(--serif)] text-[32px]">Più di un ristorante.</h3>
             <p className="mt-[20px] text-[17px] leading-[1.7] text-[var(--cream-mute)]">
               Le Streghe Ubriache, col tempo, sono diventate qualcosa di più. Un luogo dove
               si torna anche solo per un saluto. Una cantina che la sera diventa salotto,
@@ -153,28 +153,28 @@ export default function StoriaPage() {
           <div className="grid grid-cols-4 gap-[clamp(24px,4vw,64px)] mt-[48px] max-[860px]:grid-cols-1">
             <div className="reveal pt-[32px] border-t border-[var(--rule-strong)]">
               <div className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)] mb-[24px]">Anno</div>
-              <h3 className="font-[var(--serif)] italic text-[clamp(56px,7vw,96px)] leading-[1.02]">1750</h3>
+              <h3 className="font-[var(--serif)] text-[clamp(56px,7vw,96px)] leading-[1.02]">1750</h3>
               <p className="mt-[16px] text-[var(--cream-mute)] text-[15px]">
                 L'anno della cantina che ci ospita, scolpita nel tufo delle volte.
               </p>
             </div>
             <div className="reveal pt-[32px] border-t border-[var(--rule-strong)]">
               <div className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)] mb-[24px]">Nascita</div>
-              <h3 className="font-[var(--serif)] italic text-[clamp(56px,7vw,96px)] leading-[1.02]">2003</h3>
+              <h3 className="font-[var(--serif)] text-[clamp(56px,7vw,96px)] leading-[1.02]">2003</h3>
               <p className="mt-[16px] text-[var(--cream-mute)] text-[15px]">
                 La nascita delle Streghe Ubriache
               </p>
             </div>
             <div className="reveal pt-[32px] border-t border-[var(--rule-strong)]">
               <div className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)] mb-[24px]">Km 0</div>
-              <h3 className="font-[var(--serif)] italic text-[clamp(56px,7vw,96px)] leading-[1.02]">∞</h3>
+              <h3 className="font-[var(--serif)] text-[clamp(56px,7vw,96px)] leading-[1.02]">∞</h3>
               <p className="mt-[16px] text-[var(--cream-mute)] text-[15px]">
                 Porchetta home made, affettati e pecorini dei Castelli Romani.
               </p>
             </div>
             <div className="reveal pt-[32px] border-t border-[var(--rule-strong)]">
               <div className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)] mb-[24px]">Dolci</div>
-              <h3 className="font-[var(--serif)] italic text-[clamp(56px,7vw,96px)] leading-[1.02]">
+              <h3 className="font-[var(--serif)] text-[clamp(56px,7vw,96px)] leading-[1.02]">
                 100<span className="text-[0.5em]">%</span>
               </h3>
               <p className="mt-[16px] text-[var(--cream-mute)] text-[15px]">
@@ -197,8 +197,8 @@ export default function StoriaPage() {
         <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
           Vienici a trovare
         </span>
-        <h2 className="font-[var(--serif)] italic mt-[24px] text-[clamp(56px,9vw,144px)] leading-[1.02] tracking-[-0.01em]">
-          Le Streghe Ubriache<br /><span className="italic">ti aspettano in cantina.</span>
+        <h2 className="font-[var(--serif)] mt-[24px] text-[clamp(56px,9vw,144px)] leading-[1.02] tracking-[-0.01em]">
+          Le Streghe Ubriache<br /><span>ti aspettano in cantina.</span>
         </h2>
         <div className="flex gap-[16px] justify-center flex-wrap mt-[32px]">
           <a

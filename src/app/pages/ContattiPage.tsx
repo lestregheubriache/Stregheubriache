@@ -33,7 +33,7 @@ export default function ContattiPage() {
         <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)] block mb-[24px]">
           Vienici a trovare
         </span>
-        <h1 className="italic text-[clamp(64px,11vw,160px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
+        <h1 className="text-[clamp(64px,11vw,160px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
           Riserva<br />il tuo tavolo.
         </h1>
         <p className="mt-[32px] mx-auto text-[var(--cream-mute)] text-[17px] max-w-[60ch]">
@@ -48,14 +48,14 @@ export default function ContattiPage() {
             Le coordinate
           </span>
           <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(40px,5vw,72px)] leading-[1.02]">
-            In <span className="italic">centro</span><br />a Frascati.
+            In <span>centro</span><br />a Frascati.
           </h2>
 
           <dl className="grid grid-cols-[100px_1fr] gap-x-[16px] gap-y-[20px] mt-[32px]">
             <dt className="font-[var(--mono)] text-[10px] tracking-[0.28em] uppercase text-[var(--cream-mute)] pt-[6px]">
               Dove
             </dt>
-            <dd className="font-[var(--serif)] text-[22px] italic">
+            <dd className="font-[var(--serif)] text-[22px]">
               Via Vincenzo Gioberti, 6<br />
               <span className="text-[16px] font-[var(--sans)] not-italic text-[var(--cream-mute)]">
                 00044 Frascati (RM) · Italia
@@ -66,7 +66,7 @@ export default function ContattiPage() {
               Telefono
             </dt>
             <dd>
-              <a href="tel:+390694921645" className="font-[var(--serif)] text-[22px] italic hover:text-[var(--ember)] transition-colors">
+              <a href="tel:+390694921645" className="font-[var(--serif)] text-[22px] hover:text-[var(--ember)] transition-colors">
                 +39 06 94921645
               </a>
               <span className="block mt-[6px] font-[var(--mono)] text-[10px] tracking-[0.18em] uppercase text-[var(--ember)]">
@@ -86,7 +86,7 @@ export default function ContattiPage() {
             <dt className="font-[var(--mono)] text-[10px] tracking-[0.28em] uppercase text-[var(--cream-mute)] pt-[6px]">
               Email
             </dt>
-            <dd className="font-[var(--serif)] text-[18px] italic">
+            <dd className="font-[var(--serif)] text-[18px]">
               <a href="mailto:lestregheubriachesince2003@gmail.com" className="hover:text-[var(--ember)] transition-colors break-all">
                 lestregheubriachesince2003@gmail.com
               </a>
@@ -95,7 +95,7 @@ export default function ContattiPage() {
             <dt className="font-[var(--mono)] text-[10px] tracking-[0.28em] uppercase text-[var(--cream-mute)] pt-[6px]">
               Orari
             </dt>
-            <dd className="font-[var(--serif)] text-[18px] italic">
+            <dd className="font-[var(--serif)] text-[18px]">
               Mer — Dom · 19:00 → 00:30<br />
               <span className="text-[14px] font-[var(--sans)] not-italic text-[var(--cream-mute)]">
                 Lunedì e martedì chiuso
@@ -105,7 +105,7 @@ export default function ContattiPage() {
             <dt className="font-[var(--mono)] text-[10px] tracking-[0.28em] uppercase text-[var(--cream-mute)] pt-[6px]">
               Social
             </dt>
-            <dd className="font-[var(--serif)] text-[18px] italic">
+            <dd className="font-[var(--serif)] text-[18px]">
               <a
                 href="https://www.instagram.com/lestregheubriache"
                 target="_blank"
@@ -148,7 +148,7 @@ export default function ContattiPage() {
           <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
             Prenota un tavolo
           </span>
-          <h2 className="font-[var(--serif)] italic mt-[18px] text-[clamp(40px,6.5vw,96px)] leading-[1.02] tracking-[-0.01em]">
+          <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(40px,6.5vw,96px)] leading-[1.02] tracking-[-0.01em]">
             Quando<br />ti aspettiamo?
           </h2>
           <p className="mt-[24px] mx-auto text-[var(--cream-mute)] max-w-[50ch] text-[17px]">

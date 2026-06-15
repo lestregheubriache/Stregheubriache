@@ -16,7 +16,7 @@ export default function Marquee() {
       aria-hidden="true"
     >
       <div
-        className="flex gap-[60px] whitespace-nowrap font-[var(--serif)] italic text-[clamp(48px,7vw,96px)] text-[var(--cream)]"
+        className="flex gap-[60px] whitespace-nowrap font-[var(--serif)] text-[clamp(48px,7vw,96px)] text-[var(--cream)]"
         style={{
           animation: 'scroll 38s linear infinite'
         }}

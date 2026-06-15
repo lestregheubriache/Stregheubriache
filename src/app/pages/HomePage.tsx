@@ -25,7 +25,7 @@ const T = {
     infoStrip: [
       { label: 'Dove', value: 'Via Vincenzo Gioberti, 6\nFrascati (RM)', link: GMAPS },
       { label: 'Quando', value: 'Mer — Dom · dalle 18\nDom anche a pranzo 12:30–15', link: 'https://share.google/z1JEYaXGlAt39EFDd' },
-      { label: 'Specialità', value: 'Pane, pasta, porchetta\ne dolci fatti in casa · prodotti km 0', link: '#specialita' },
+      { label: 'Specialità', value: 'Pane, pasta, porchetta\ne dolci fatti in casa · prodotti km 0' },
       { label: 'Formule', value: 'Aperitivo · cena\ndopocena · pranzo domenica' },
     ],
     storyTag: 'La nostra storia',
@@ -65,7 +65,7 @@ const T = {
     ],
     ctaTag: 'Prenota il tuo tavolo',
     ctaTitle: 'Ci vediamo\nin cantina.',
-    ctaCopy: 'Le Streghe Ubriache aprono il mercoledì, giovedì, venerdì, sabato e la domenica, la domenica anche a pranzo. Per gruppi ed eventi privati scriviamo insieme la vostra serata.',
+    ctaCopy: 'Le Streghe Ubriache aprono il mercoledì, giovedì, venerdì, sabato e la domenica, anche a pranzo. Per gruppi ed eventi privati scriviamo insieme la vostra serata.',
     ctaBook: 'Prenota su WhatsApp →',
     ctaFind: 'Trovaci',
     metaRight1: 'Cucina & Cocktail Bar',
@@ -190,12 +190,12 @@ export default function HomePage() {
         </div>
 
         <h1 className="text-[clamp(70px,14vw,220px)] leading-[0.86] tracking-[-0.02em] max-w-[14ch]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
-          <span className="italic text-[var(--cream)]">Le</span>{' '}
+          <span className="text-[var(--cream)]">Le</span>{' '}
           <span className="text-transparent" style={{ WebkitTextStroke: '1px var(--cream)' }}>Streghe</span>
           <br />
-          <span className="italic text-[var(--cream)]">Ubriache</span>
+          <span className="text-[var(--cream)]">Ubriache</span>
         </h1>
-        <p className="font-[var(--serif)] italic text-[clamp(32px,5.5vw,90px)] tracking-[0.02em] mt-[14px] leading-[0.95] whitespace-nowrap max-[860px]:whitespace-normal max-w-full overflow-hidden" style={{ color: '#c0392b' }}>
+        <p className="font-[var(--serif)] text-[clamp(32px,5.5vw,90px)] tracking-[0.02em] mt-[14px] leading-[0.95] whitespace-nowrap max-[860px]:whitespace-normal max-w-full overflow-hidden" style={{ color: '#c0392b' }}>
           {t.heroSub}
         </p>
 
@@ -203,7 +203,7 @@ export default function HomePage() {
           <p className="max-w-[42ch] text-[17px] text-[var(--cream-mute)] leading-[1.55]">{t.heroCopy}</p>
           <div className="flex gap-[16px] flex-wrap">
             <Button to="/menu" solid style={{ background: '#c0392b', borderColor: '#c0392b', color: '#fff' }}>
-              {t.heroMenu} <span className="font-[var(--serif)] italic text-[14px] tracking-normal normal-case">→</span>
+              {t.heroMenu} <span className="font-[var(--serif)] text-[14px] tracking-normal normal-case">→</span>
             </Button>
             <a
               href="https://wa.me/39069421645?text=Salve%20vorrei%20prenotare%20un%20tavolo"
@@ -231,14 +231,14 @@ export default function HomePage() {
                 href={(info as any).link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-[var(--serif)] italic text-[20px] leading-[1.25] hover:text-[var(--ember)] transition-colors underline underline-offset-4 decoration-[var(--rule-strong)]"
+                className="font-[var(--serif)] text-[20px] leading-[1.25] hover:text-[var(--ember)] transition-colors underline underline-offset-4 decoration-[var(--rule-strong)]"
               >
                 {info.value.split('\n').map((line, j, arr) => (
                   <span key={j}>{line}{j < arr.length - 1 && <br />}</span>
                 ))}
               </a>
             ) : (
-              <p className="font-[var(--serif)] italic text-[20px] leading-[1.25]">
+              <p className="font-[var(--serif)] text-[20px] leading-[1.25]">
                 {info.value.split('\n').map((line, j, arr) => (
                   <span key={j}>{line}{j < arr.length - 1 && <br />}</span>
                 ))}
@@ -255,7 +255,7 @@ export default function HomePage() {
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">
               Le nostre specialità
             </span>
-            <h2 className="font-[var(--serif)] italic mt-[18px] text-[clamp(36px,5.5vw,80px)] leading-[1.02] tracking-[-0.01em]">
+            <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(36px,5.5vw,80px)] leading-[1.02] tracking-[-0.01em]">
               Fatto in casa,<br />con amore.
             </h2>
             <p className="mt-[24px] mx-auto text-[var(--cream-mute)] text-[17px] max-w-[60ch]">
@@ -288,7 +288,7 @@ export default function HomePage() {
 
           <div className="text-center mt-[48px]">
             <Button to="/menu">
-              Scopri il menù completo <span className="font-[var(--serif)] italic text-[14px] tracking-normal normal-case">→</span>
+              Scopri il menù completo <span className="font-[var(--serif)] text-[14px] tracking-normal normal-case">→</span>
             </Button>
           </div>
         </div>
@@ -304,7 +304,7 @@ export default function HomePage() {
           />
           <div className="reveal">
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">{t.storyTag}</span>
-            <h2 className="font-[var(--serif)] italic mt-[18px] text-[clamp(40px,6.5vw,96px)] leading-[1.02] tracking-[-0.01em]">
+            <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(40px,6.5vw,96px)] leading-[1.02] tracking-[-0.01em]">
               {t.storyTitle.split('\n').map((line, j) => (<span key={j}>{line}{j === 0 && <br />}</span>))}
             </h2>
             <p className="mt-[28px] text-[18px] leading-[1.65] text-[var(--cream-mute)]">{t.storyP1}</p>
@@ -337,7 +337,7 @@ export default function HomePage() {
           <div className="flex justify-between items-end gap-[40px] mb-[clamp(40px,6vh,80px)] flex-wrap">
             <div>
               <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">{t.menuTag}</span>
-              <h2 className="font-[var(--serif)] italic mt-[16px] text-[clamp(36px,5.5vw,80px)] leading-[1.02] tracking-[-0.01em] max-w-[14ch]">
+              <h2 className="font-[var(--serif)] mt-[16px] text-[clamp(36px,5.5vw,80px)] leading-[1.02] tracking-[-0.01em] max-w-[14ch]">
                 {t.menuTitle.split('\n').map((line, j) => (<span key={j}>{line}{j === 0 && <br />}</span>))}
               </h2>
             </div>
@@ -351,7 +351,7 @@ export default function HomePage() {
 
           <div className="text-center mt-[64px]">
             <Button to="/menu">
-              {t.menuCta} <span className="font-[var(--serif)] italic text-[14px] tracking-normal normal-case">→</span>
+              {t.menuCta} <span className="font-[var(--serif)] text-[14px] tracking-normal normal-case">→</span>
             </Button>
           </div>
         </div>
@@ -368,7 +368,7 @@ export default function HomePage() {
             {t.pillars.map((pillar, i) => (
               <div key={i} className="reveal pt-[32px] border-t border-[var(--rule-strong)]">
                 <div className="font-[var(--mono)] text-[11px] tracking-[0.32em] text-[var(--ember)] mb-[24px]">{pillar.num}</div>
-                <h3 className="font-[var(--serif)] italic text-[clamp(28px,3vw,40px)] leading-[1.02]">
+                <h3 className="font-[var(--serif)] text-[clamp(28px,3vw,40px)] leading-[1.02]">
                   {pillar.title.split('\n').map((line, j) => (<span key={j}>{line}{j === 0 && <br />}</span>))}
                 </h3>
                 <p className="mt-[16px] text-[var(--cream-mute)] text-[15px]">{pillar.desc}</p>
@@ -388,7 +388,7 @@ export default function HomePage() {
         }}
       >
         <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">{t.ctaTag}</span>
-        <h2 className="font-[var(--serif)] italic mt-[24px] text-[clamp(56px,9vw,144px)] leading-[1.02] tracking-[-0.01em]">
+        <h2 className="font-[var(--serif)] mt-[24px] text-[clamp(56px,9vw,144px)] leading-[1.02] tracking-[-0.01em]">
           {t.ctaTitle.split('\n').map((line, j) => (<span key={j}>{line}{j === 0 && <br />}</span>))}
         </h2>
         <p className="mt-[28px] mx-auto mb-[36px] text-[var(--cream-mute)] max-w-[52ch]">{t.ctaCopy}</p>

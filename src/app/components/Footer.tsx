@@ -24,7 +24,7 @@ export default function Footer() {
                 alt="Le Streghe Ubriache logo"
                 className="h-[40px] w-auto"
               />
-              <div className="font-[var(--serif)] italic text-[28px] leading-[1.1]">
+              <div className="font-[var(--serif)] text-[28px] leading-[1.1]">
                 Le Streghe<br />Ubriache
               </div>
             </div>
