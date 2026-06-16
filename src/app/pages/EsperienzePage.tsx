@@ -89,30 +89,35 @@ export default function EsperienzePage() {
     {
       num: '02',
       title: 'Dietro il bancone',
-      body: 'Metti alla prova la tua creatività creando il tuo cocktail personale, usando il Frascati come base per il City Spritz — il cocktail locale della casa.'
+      body: 'Metti alla prova la tua creatività creando il tuo cocktail personale, usando il Frascati come base per il City Spritz — il cocktail creato da noi in onore del vino Frascati.'
     },
     {
       num: '03',
-      title: 'Il tuo secondo drink',
-      body: 'Passo dopo passo, prepari un secondo cocktail a tua scelta dalla nostra selezione curata, imparando ad usare gli strumenti professionali da bar.'
+      title: 'Guida passo per passo con strumenti professionali da bar',
+      body: 'Creazione di due drink a scelta e bevuta di entrambi.'
     }
   ];
 
   const cookingSteps = [
     {
       num: '01',
-      title: 'Benvenuto in cucina',
-      body: 'Incontri Gianluca, il nostro chef, e scopri gli ingredienti locali che userai: farine biologiche, porchetta artigianale, verdure fresche dei Castelli Romani.'
+      title: 'Benvenuto!',
+      body: 'Conosci la storia di Le Streghe Ubriache e il suo staff, e cosa andrai a preparare, secondo le tradizioni di famiglia tramandate dalle nonne.'
     },
     {
       num: '02',
       title: 'Mani in pasta',
-      body: 'Impasti, stendi e prepari la tua pinsa romana da zero seguendo la ricetta tradizionale. Gianluca ti guida passo dopo passo.'
+      body: 'Impasti, stendi e prepari le tue fettuccine da zero seguendo la ricetta tradizionale. Gianluca ti guida passo dopo passo.'
     },
     {
       num: '03',
-      title: 'Farcisci e assaggia',
-      body: 'Scegli i tuoi condimenti preferiti, inforna la tua creazione e poi... gustala insieme a un buon calice di vino dei Castelli.'
+      title: "Dall'Italia con dolcezza e brio",
+      body: "Componi il tuo tiramisù: crema soffice e caffè fatto con la moka italiana. Semplice, autentico e italiano, oppure scegli di gustare un autentico Spritz in compagnia."
+    },
+    {
+      num: '04',
+      title: 'E ora gusta!',
+      body: 'Il momento più atteso: l\'assaggio. Siediti e gusta ciò che hai preparato tra profumi e il piacere del MadeByYou.'
     }
   ];
 
@@ -121,7 +126,7 @@ export default function EsperienzePage() {
       icon: "🎁",
       tag: "Idea regalo",
       title: "Regalala a chi ami.",
-      copy: "La Drinking Class o cooking class è il regalo perfetto per chi ama scoprire cose nuove: un'esperienza da vivere, non un oggetto da mettere in un cassetto. Prenota un posto e ricevi una conferma da stampare o inviare digitalmente. Valida quando vuole il destinatario.",
+      copy: "La Drinking Class o Cooking Class sono il regalo perfetto per chi ama scoprire cose nuove: un'esperienza da vivere, non un oggetto da mettere in un cassetto. Prenota un posto e ricevi una conferma da stampare o inviare digitalmente.",
       cta: "Regala l'esperienza →",
       waText: "Salve, vorrei acquistare una Drinking Class o Cooking Class come regalo per qualcuno. Come posso fare?"
     },
@@ -137,7 +142,7 @@ export default function EsperienzePage() {
       icon: "🤝",
       tag: "Team building",
       title: "L'attività che unisce davvero il team.",
-      copy: "Dimentica le presentazioni PowerPoint. La Drinking Class o cooking class è un'attività di team building che mette tutti sullo stesso piano — dietro il bancone o con le mani in pasta. Competizione amichevole, collaborazione, risate vere. Disponibile per gruppi aziendali con formula personalizzata su misura.",
+      copy: "Dimentica le presentazioni PowerPoint. La Drinking Class o Cooking Class è un'attività di team building che mette tutti sullo stesso piano — dietro il bancone o con le mani in pasta. Competizione amichevole, collaborazione, risate vere. Disponibile per gruppi aziendali con formula personalizzata su misura.",
       cta: "Scopri per le aziende →",
       waText: "Salve, siamo interessati alla Drinking Class / Cooking Class come attività di team building aziendale. Avete pacchetti dedicati?",
     },
@@ -168,7 +173,7 @@ export default function EsperienzePage() {
           </p>
           <p className="mt-[24px] mx-auto text-[var(--cream-mute)] text-[17px] max-w-[60ch]">
             Solo su prenotazione. Scegli la tua avventura: dietro il bancone a mixare cocktail,
-            o in cucina con Gianluca a preparare pinse romane.
+            o in cucina con Gianluca e Matteo a preparare pasta e tiramisù.
           </p>
         </div>
       </section>
@@ -196,13 +201,13 @@ export default function EsperienzePage() {
               L'esperienza nel dettaglio
             </span>
             <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(32px,4.5vw,60px)] leading-[1.02]">
-              Un'esperienza indimenticabile<br />nei Castelli Romani.
+              Un'esperienza indimenticabile<br />a Le Streghe Ubriache.
             </h2>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] leading-[1.7]">
-              Goditi una deliziosa esperienza enogastronomica nei Castelli Romani presso Le Streghe Ubriache! Questa esperienza si svolge in una cantina del 1750 splendidamente restaurata a Frascati, ora adibita a ristorante e wine bar. Inizierai con una breve introduzione alla regione vinicola dei Castelli Romani. In seguito, assaporerai una degustazione di prodotti locali come pecorino, salumi, porchetta e pinsa, abbinati a due calici di vino Frascati DOCG.
+              Goditi una deliziosa esperienza enogastronomica nei Castelli Romani presso Le Streghe Ubriache! Inizierai con una breve introduzione alla regione vinicola dei Castelli Romani. In seguito, assaporerai una degustazione di prodotti locali come pecorino, salumi, porchetta e pinsa, abbinati a due calici di vino Frascati DOCG.
             </p>
             <p className="mt-[16px] text-[var(--cream-mute)] text-[16px] leading-[1.7]">
-              Inoltre, avrai l'opportunità di mettere alla prova la tua creatività creando il tuo cocktail personale, utilizzando il rinomato vino Frascati come base per il City Spritz, un rinfrescante cocktail locale. Per completare l'esperienza, avrai anche la possibilità di miscelare un secondo drink. L'esperto barman di Le Streghe Ubriache ti guiderà passo dopo passo nella preparazione di un altro cocktail a tua scelta dalla nostra selezione curata, dimostrandoti come utilizzare gli strumenti professionali da bar.
+              Inoltre, avrai l'opportunità di mettere alla prova la tua creatività creando il tuo cocktail personale, utilizzando il rinomato vino Frascati come base per il City Spritz, un cocktail creato da noi in onore del vino Frascati. Per completare l'esperienza, avrai anche la possibilità di miscelare un secondo drink. L'esperto barman di Le Streghe Ubriache ti guiderà passo dopo passo nella preparazione di un altro cocktail a tua scelta dalla nostra selezione curata, dimostrandoti come utilizzare gli strumenti professionali da bar.
             </p>
             <blockquote
               className="mt-[32px] px-[24px] py-[20px] border-l-[3px] rounded-r"
@@ -300,9 +305,7 @@ export default function EsperienzePage() {
               Mani in pasta,<br />come tradizione.
             </h2>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] leading-[1.7]">
-              Entra nella cucina de Le Streghe Ubriache e lavora fianco a fianco con Gianluca,
-              il nostro chef. Imparerai a preparare la vera pinsa romana da zero — dall'impasto
-              alla farcitura — usando ingredienti locali e biologici dei Castelli Romani.
+              Unisciti a noi e vivi la cucina italiana. Impasta, stendi e taglia la tua pasta fresca, e gustala appena fatta. Prepara il tiramisù con la vera Moka italiana. Un'esperienza autentica e indimenticabile.
             </p>
             <blockquote
               className="mt-[32px] px-[24px] py-[20px] border-l-[3px] rounded-r"
@@ -481,7 +484,7 @@ export default function EsperienzePage() {
               </h3>
               <dl className="space-y-[0px]">
                 {[
-                  { dt: 'Prezzo', dd: '€ 39,00 a persona · tutto incluso' },
+                  { dt: 'Prezzo', dd: '€ 39,00 a persona · possibilità di restare a cena' },
                   { dt: 'Quando', dd: 'Solo su prenotazione' },
                   { dt: 'Orario', dd: 'Ore 18:30' },
                   { dt: 'Durata', dd: 'Circa 2 ore' },
@@ -507,7 +510,7 @@ export default function EsperienzePage() {
               </h3>
               <dl className="space-y-[0px]">
                 {[
-                  { dt: 'Prezzo', dd: '€ 45,00 a persona · tutto incluso' },
+                  { dt: 'Prezzo', dd: '€ 45,00 a persona · possibilità di restare a cena' },
                   { dt: 'Quando', dd: 'Solo su prenotazione' },
                   { dt: 'Orario', dd: 'Ore 18:00' },
                   { dt: 'Durata', dd: 'Circa 2,5 ore' },
@@ -543,11 +546,11 @@ export default function EsperienzePage() {
             </span>
             <ul className="mt-[24px] space-y-[18px] list-none">
               {[
+                { icon: '📖', text: 'Introduzione alla storia di Frascati e di Le Streghe Ubriache' },
                 { icon: '🍷', text: 'Degustazione di 2 calici di vino Frascati DOCG' },
                 { icon: '🧀', text: 'Degustazione di prodotti tipici locali: pecorino, salumi, porchetta e pinsa romana' },
-                { icon: '🍹', text: 'Creazione di due drink a scelta' },
                 { icon: '🎓', text: 'Guida passo per passo con strumenti professionali da bar' },
-                { icon: '✨', text: 'Esperienza in una cantina del 1750 splendidamente restaurata' },
+                { icon: '🍹', text: 'Creazione di due drink a scelta e bevuta di entrambi' },
               ].map((item, i) => (
                 <li key={i} className="flex gap-[12px] items-start">
                   <span className="text-[18px] flex-shrink-0">{item.icon}</span>
@@ -558,7 +561,7 @@ export default function EsperienzePage() {
             <div className="mt-[32px] pt-[24px] border-t border-[var(--rule)] flex items-end justify-between gap-[16px]">
               <div>
                 <p className="font-[var(--serif)] text-[clamp(28px,3.5vw,40px)]" style={{ color: '#c0392b' }}>€ 39,00</p>
-                <span className="font-[var(--mono)] text-[10px] tracking-[0.18em] text-[var(--cream-mute)]">a persona · tutto incluso</span>
+                <span className="font-[var(--mono)] text-[10px] tracking-[0.18em] text-[var(--cream-mute)]">a persona</span>
               </div>
               <WAButton text="Salve, vorrei prenotare la Drinking Class." label="Prenota →" variant="red" />
             </div>
@@ -574,12 +577,10 @@ export default function EsperienzePage() {
             </span>
             <ul className="mt-[24px] space-y-[18px] list-none">
               {[
+                { icon: '📖', text: 'Introduzione alla storia di Frascati e di Le Streghe Ubriache' },
                 { icon: '👨‍🍳', text: 'Lezione con Gianluca, lo chef de Le Streghe Ubriache' },
-                { icon: '🍞', text: 'Impasto e preparazione della pinsa romana da zero' },
-                { icon: '🥬', text: 'Ingredienti biologici e locali dei Castelli Romani' },
-                { icon: '🔥', text: 'Cottura nel forno e farcitura personalizzata' },
-                { icon: '🍷', text: 'Degustazione della tua pinsa con calice di vino incluso' },
-                { icon: '✨', text: 'Esperienza in una cucina del 1750 — ricette e tradizione' },
+                { icon: '🍝', text: 'Impasto e preparazione delle fettuccine da zero' },
+                { icon: '🍷', text: 'Degustazione delle fettuccine con il tuo Spritz o a seguire del tiramisù' },
               ].map((item, i) => (
                 <li key={i} className="flex gap-[12px] items-start">
                   <span className="text-[18px] flex-shrink-0">{item.icon}</span>
@@ -590,7 +591,7 @@ export default function EsperienzePage() {
             <div className="mt-[32px] pt-[24px] border-t border-[var(--rule)] flex items-end justify-between gap-[16px]">
               <div>
                 <p className="font-[var(--serif)] text-[clamp(28px,3.5vw,40px)]" style={{ color: '#8b6f47' }}>€ 45,00</p>
-                <span className="font-[var(--mono)] text-[10px] tracking-[0.18em] text-[var(--cream-mute)]">a persona · tutto incluso</span>
+                <span className="font-[var(--mono)] text-[10px] tracking-[0.18em] text-[var(--cream-mute)]">a persona</span>
               </div>
               <WAButton text="Salve, vorrei prenotare la Cooking Class." label="Prenota →" variant="red" />
             </div>
