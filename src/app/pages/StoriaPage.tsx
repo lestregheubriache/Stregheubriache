@@ -67,12 +67,6 @@ export default function StoriaPage() {
           </div>
         </div>
 
-        <ImageWithFallback
-          src={volteImg}
-          alt="Volte in tufo, vista lunga della cantina"
-          className="reveal aspect-[16/9] my-[60px] w-full object-cover"
-        />
-
         {/* Cap II */}
         <div className="reveal grid grid-cols-[200px_1fr] gap-[64px] items-start mb-[80px] max-[860px]:grid-cols-1 max-[860px]:gap-[24px]">
           <div className="pt-[12px] border-t border-[var(--rule-strong)]">
