@@ -44,13 +44,15 @@ const MENU_SECTIONS: MenuSection[] = [
     subtitle: { it: 'Dalle 18:00 alle 20:30', en: 'From 18:00 to 20:30' },
     subSections: [
       {
-        title: { it: 'Formule Aperitivo', en: 'Aperitivo Formulas' },
+        title: { it: 'Formule Aperitivo per 2', en: 'Aperitivo Formulas for 2' },
         items: [
           { it: 'TRISGRANOCCHIO — Verdure, pane bruscato e bufala · 2 calici di vino o 2 drink', en: 'TRISGRANOCCHIO — Vegetables, toasted bread & bufala · 2 glasses of wine or 2 drinks', price: '18,00 €' },
           { it: 'TAGLIERE X 2 — Prosciutto e Salumi Locali, Pecorini di Diversa Stagionatura, Porchetta e focaccia (opzione vegetariana disponibile) · 2 calici o 2 drink', en: 'SHARING BOARD X 2 — Local Ham & Cured Meats, Pecorino cheese, Porchetta & focaccia (vegetarian option available) · 2 glasses or 2 drinks', price: '28,00 €' },
           { it: 'LE PINSOTTELLE — Pinsottella Romana a scelta dal menù · 2 calici o 2 drink', en: 'LE PINSOTTELLE — Roman pinsottella of your choice · 2 glasses or 2 drinks' },
           { it: 'SFIZI DAL FORNO — Polpette di Pulled Pork, Foglie di Borragine, Polpette della Nonna, Patate, Bruschette al lardo speziato · 2 calici o 2 drink', en: 'BAKED BITES — Pulled Pork balls, Borage leaves, Grandma\'s meatballs, Potatoes, Spiced lard bruschetta · 2 glasses or 2 drinks', price: '30,00 €' },
           { it: 'CRUDI E BOLLICINE — Tartare del giorno, Carpaccio di Manzo agli Agrumi, Carpaccio di Bresaola timo e fili di peperoncino · Bottiglia di Prosecco (upgrade disponibile)', en: 'RAW & BUBBLES — Daily tartare, Citrus Beef Carpaccio, Bresaola Carpaccio with thyme & chilli · Bottle of Prosecco (upgrade available)', price: '40,00 €' },
+          { it: 'PER I VINI E I DRINK, CONSULTA LA NOSTRA WINE/DRINK LIST', en: 'FOR WINES AND DRINKS, SEE OUR WINE/DRINK LIST' },
+          { it: 'OPPURE SCEGLI DAL MENÙ CIÒ CHE PREFERISCI', en: 'OR CHOOSE FREELY FROM THE MENU' },
         ]
       }
     ],
@@ -60,7 +62,7 @@ const MENU_SECTIONS: MenuSection[] = [
   {
     id: 'cibo',
     title: { it: 'Food', en: 'Food' },
-    subtitle: { it: 'La cucina di Gianluca', en: 'Gianluca\'s Kitchen' },
+    subtitle: { it: 'Il nostro Menù', en: 'Our Menu' },
     subSections: [
       {
         title: { it: 'Entrée', en: 'Starters' },
@@ -86,18 +88,19 @@ const MENU_SECTIONS: MenuSection[] = [
         items: [
           { it: 'Tagliere Nostrum — Prosciutto e Salumi Locali, Pecorini di diversa Stagionatura, Porchetta', en: 'Tagliere Nostrum — Ham, Local Cured Meats, Pecorino cheese of different ages, Porchetta', price: '18,00 €' },
           { it: 'Tagliere delle Streghe — Speck d\'Anatra, Salame di Cervo, Mortadella di Cinghiale Grigliata, Bruschette Lardo Speziato', en: 'Tagliere delle Streghe — Duck Speck, Deer Salami, Grilled Wild Boar Mortadella, Spiced Lard Bruschetta', price: '19,00 €' },
-          { it: 'Pane e servizio', en: 'Bread & service', price: '1,50 €' },
+          { it: 'Serviti con focaccia', en: 'Served with focaccia' },
+          { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
         ]
       },
       {
-        title: { it: 'Primi Piatti · Tutta fatta in casa.', en: 'First Courses · All home-made.' },
+        title: { it: 'Primi Piatti · Tutta la pasta è fatta in casa.', en: 'First Courses · All pasta is home-made.' },
         items: [
           { it: 'Maccheronici alla Mediterranea — Ragù di Melanzane, Ricotta Salata, Olio alle erbe, Crunchy di Cipolla', en: 'Maccheroni alla Mediterranea — Eggplant ragù, Salted Ricotta, Herb oil, Crispy onion', price: '14,00 €' },
           { it: 'Spaghettoni al Pesto di Zucchine e Mandorle con briciole di Olive e polvere di Peperone Crusco', en: 'Spaghettoni with Zucchini & Almond pesto, Olive crumble, Crusco Pepper powder', price: '14,00 €' },
           { it: 'Fettuccine al ragù di Scottona', en: 'Fettuccine with Scottona beef ragù', price: '14,00 €' },
           { it: 'Tonnarello Cacio e Pepe', en: 'Tonnarello Cacio e Pepe (pecorino & pepper)', price: '13,00 €' },
           { it: 'Maccheroncini alla Carbonara / Amatriciana / Gricia', en: 'Maccheroni Carbonara / Amatriciana / Gricia', price: '14,00 €' },
-          { it: 'Pane e servizio', en: 'Bread & service', price: '1,50 €' },
+          { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
         ]
       },
       {
@@ -111,7 +114,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Straccetti di Manzo — rucola, pachino e grana', en: 'Beef Straccetti — rocket, cherry tomatoes & parmesan', price: '18,00 €' },
           { it: 'Tagliata di Pollo alla griglia — rucola, pachino e grana', en: 'Grilled Chicken Cut — rocket, cherry tomatoes & parmesan', price: '18,00 €' },
           { it: 'Tagliata di Pollo alla griglia — erbette di campo', en: 'Grilled Chicken Cut — wild field herbs', price: '16,00 €' },
-          { it: 'Pane e servizio', en: 'Bread & service', price: '1,50 €' },
+          { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
         ]
       },
       {
@@ -140,7 +143,7 @@ const MENU_SECTIONS: MenuSection[] = [
         ]
       },
       {
-        title: { it: 'Pinsottelle — piccole nel formato, grandi nel gusto', en: 'Pinsottelle — small in size, big in flavour' },
+        title: { it: 'Pinsottelle — pinsa romana, 72 ore di lievitazione, piccola nel formato, grande nel gusto', en: 'Pinsottelle — Roman pinsa, 72h leavening, small in size, big in flavour' },
         items: [
           { it: 'Prosciutto e Bufala', en: 'Ham & Bufala Mozzarella', price: '10,00 €' },
           { it: 'Bufalina — Pomodoro, Mozzarella di Bufala', en: 'Bufalina — Tomato & Bufala Mozzarella', price: '10,00 €' },
@@ -169,10 +172,10 @@ const MENU_SECTIONS: MenuSection[] = [
         items: [
           { it: 'Sbriciolata — crema chantilly, Nutella o Frutti di bosco', en: 'Sbriciolata crumble — chantilly cream, Nutella or Wild berries', price: '6,00 €' },
           { it: 'Tiramisù Classico o alla Nutella', en: 'Tiramisù — Classic or Nutella', price: '6,00 €' },
-          { it: 'Tortino al cioccolato — cuore caldo e gelato alla vaniglia', en: 'Warm chocolate cake — warm heart & vanilla ice cream', price: '6,00 €' },
+          { it: 'Tortino al cioccolato — cuore caldo e gelato alla vaniglia', en: 'Warm chocolate cake — warm heart & vanilla ice cream', price: '7,00 €' },
           { it: 'Ciambelline al vino bianco con Cannellino', en: 'White wine ring biscuits with Cannellino wine', price: '7,00 €' },
           { it: 'Pinsa alla Nutella', en: 'Pinsa with Nutella', price: '10,00 €' },
-          { it: 'Pane e servizio', en: 'Bread & service', price: '1,50 €' },
+          { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
         ]
       },
     ],
@@ -210,10 +213,10 @@ const MENU_SECTIONS: MenuSection[] = [
         items: [
           { it: 'Baccarossa Rosso IGT — Poggio Le Volpi · Frutti di bosco, spezie dolci e tabacco', en: 'Baccarossa Rosso IGT — Poggio Le Volpi · Wild berries, sweet spices & tobacco', price: '32,00 €' },
           { it: 'Cesanese Lazio IGP BIO — Gabriele Magno · Note balsamiche, cacao e spezie dolci', en: 'Cesanese Lazio IGP BIO — Gabriele Magno · Balsamic, cocoa & sweet spice notes', price: '28,00 €' },
-          { it: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio', en: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio', price: '26,00 €' },
-          { it: 'Cremera Roma DOC Rosso — Terre del Veio', en: 'Cremera Roma DOC Rosso — Terre del Veio', price: '22,00 €' },
-          { it: 'Polluce Nero Buono — Cincinnato', en: 'Polluce Nero Buono — Cincinnato', price: '21,00 €' },
-          { it: 'Nexum Syrah Lazio IGT — Terre del Veio', en: 'Nexum Syrah Lazio IGT — Terre del Veio', price: '20,00 €' },
+          { it: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Note frutti di bosco con un lieve sentore fumée. Al palato fresco, ma con un tannino evidente', en: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Wild berry notes with a light smoky hint. Fresh on the palate with evident tannins', price: '26,00 €' },
+          { it: 'Cremera Roma DOC Rosso — Terre del Veio · Frutta rossa matura dal finale speziato, cacao e tabacco dolce', en: 'Cremera Roma DOC Rosso — Terre del Veio · Ripe red fruit with a spiced finish, cocoa and sweet tobacco', price: '22,00 €' },
+          { it: 'Polluce Nero Buono — Cincinnato · Sapore delicato, armonico con elegante complessità', en: 'Polluce Nero Buono — Cincinnato · Delicate, harmonious flavour with elegant complexity', price: '21,00 €' },
+          { it: 'Nexum Syrah Lazio IGT — Terre del Veio · Profumo intenso e fruttato con sentori di spezie', en: 'Nexum Syrah Lazio IGT — Terre del Veio · Intense and fruity aroma with hints of spice', price: '20,00 €' },
           { it: 'Cesanese Tata — Note floreali di viola, frutta rossa e spezie', en: 'Cesanese Tata — Violet florals, red fruit & spice notes', price: '20,00 €' },
           { it: 'Capitel San Rocco Valpolicella Ripasso DOC — Tedeschi · Profumo vinoso, sapore pieno e armonico', en: 'Capitel San Rocco Valpolicella Ripasso DOC — Tedeschi · Vinous aroma, full and harmonious taste', price: '28,00 €' },
         ]
@@ -296,7 +299,7 @@ const MENU_SECTIONS: MenuSection[] = [
         ]
       },
       {
-        title: { it: 'Mocktail', en: 'Mocktails' },
+        title: { it: 'Mocktail / Zero Alcol', en: 'Mocktails / Zero Alcohol' },
         items: [
           { it: 'ZerØ Gin Tonic — Acqua Brillante & Gin Tanqueray 0.0°', en: 'ZerØ Gin Tonic — Tonic Water & Tanqueray Gin 0.0°', price: '7,00 €' },
           { it: 'ZerØ Gin Lemon — Schweppes Lemon & Gin Tanqueray 0.0°', en: 'ZerØ Gin Lemon — Schweppes Lemon & Tanqueray Gin 0.0°', price: '7,00 €' },
@@ -320,9 +323,9 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Birre in Bottiglia', en: 'Bottled Beer' },
         items: [
-          { it: 'La Dama Red Bear Artigianale rossa 50cl', en: 'La Dama Red Bear Craft Red Ale 50cl', price: '8,00 €' },
-          { it: 'La Dama La Ciao Frank Artigianale 33cl Quadrupel', en: 'La Dama La Ciao Frank Craft Quadrupel 33cl', price: '7,50 €' },
-          { it: 'La Dama La Bruna Artigianale 33cl Scura', en: 'La Dama La Bruna Craft Dark 33cl', price: '7,50 €' },
+          { it: 'La Dama Red Bear — Rossa Artigianale, 50cl', en: 'La Dama Red Bear — Craft Red Ale, 50cl', price: '8,00 €' },
+          { it: 'La Dama La Ciao Frank — Quadrupel Artigianale, 33cl', en: 'La Dama La Ciao Frank — Craft Quadrupel, 33cl', price: '7,50 €' },
+          { it: 'La Dama La Bruna — Scura Artigianale, 33cl', en: 'La Dama La Bruna — Craft Dark, 33cl', price: '7,50 €' },
           { it: 'Guinness 33cl', en: 'Guinness 33cl', price: '6,00 €' },
           { it: 'Carlsberg 33cl', en: 'Carlsberg 33cl', price: '4,00 €' },
           { it: 'Brooklyn Session IPA', en: 'Brooklyn Session IPA', price: '5,00 €' },
@@ -359,13 +362,14 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Jack Daniel\'s N°7 / Jack Daniel\'s Honey', en: 'Jack Daniel\'s N°7 / Jack Daniel\'s Honey', price: '7,00 €' },
           { it: 'Laphroaig 10', en: 'Laphroaig 10', price: '8,00 €' },
           { it: 'Jim Beam / Jim Beam Rye', en: 'Jim Beam / Jim Beam Rye', price: '7,00 €' },
+          { it: 'Ardbeg 5', en: 'Ardbeg 5', price: '7,00 €' },
         ]
       },
       {
         title: { it: 'Rum, Rhum & Ron', en: 'Rum, Rhum & Ron' },
         items: [
           { it: 'Zacapa 23', en: 'Zacapa 23', price: '12,00 €' },
-          { it: 'Clement Ambré Martinique', en: 'Clement Ambré Martinique', price: '7,00 €' },
+          { it: 'Bally Ambré Martinique', en: 'Bally Ambré Martinique', price: '7,00 €' },
           { it: 'El Dorado 12', en: 'El Dorado 12', price: '8,00 €' },
           { it: 'Kraken', en: 'Kraken', price: '7,00 €' },
           { it: 'Diplomatico Mantuano', en: 'Diplomatico Mantuano', price: '8,00 €' },
@@ -386,6 +390,8 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Gin Mare', en: 'Gin Mare', price: '8,00 € / drink 10,00 €' },
           { it: 'Beefeater 24', en: 'Beefeater 24', price: '8,00 € / drink 10,00 €' },
           { it: 'Tanqueray N°10', en: 'Tanqueray N°10', price: '8,00 € / drink 10,00 €' },
+          { it: 'Engine — Italian organic gin', en: 'Engine — Italian organic gin', price: '10,00 € / drink 12,00 €' },
+          { it: 'Tanqueray', en: 'Tanqueray', price: '8,00 € / drink 10,00 €' },
           { it: 'Beluga Vodka', en: 'Beluga Vodka', price: '8,00 € / drink 10,00 €' },
           { it: 'Ketel One Vodka', en: 'Ketel One Vodka', price: '8,00 € / drink 10,00 €' },
         ]
@@ -394,10 +400,12 @@ const MENU_SECTIONS: MenuSection[] = [
         title: { it: 'Soft Drink', en: 'Soft Drinks' },
         items: [
           { it: 'Tullia Acqua Naturale 50cl', en: 'Tullia Still Water 50cl', price: '1,50 €' },
+          { it: 'Tullia Acqua Naturale 1lt', en: 'Tullia Still Water 1lt', price: '2,50 €' },
           { it: 'Nepi Acqua Effervescente 50cl', en: 'Nepi Sparkling Water 50cl', price: '1,50 €' },
+          { it: 'Nepi Acqua Effervescente 1lt', en: 'Nepi Sparkling Water 1lt', price: '2,50 €' },
           { it: 'Coca Cola / Coca Cola Zero 33cl Vetro', en: 'Coca Cola / Coca Cola Zero 33cl Glass', price: '3,50 €' },
           { it: 'Chinotto Neri 33cl', en: 'Chinotto Neri 33cl', price: '3,50 €' },
-          { it: 'Schweppes Tonica / Schweppes Lemon 18cl', en: 'Schweppes Tonic / Schweppes Lemon 18cl', price: '3,50 €' },
+          { it: 'Schweppes Tonica / Schweppes Pompelmo 18cl', en: 'Schweppes Tonic / Schweppes Grapefruit 18cl', price: '3,50 €' },
           { it: 'Cedrata Tassoni 18cl', en: 'Cedrata Tassoni 18cl', price: '3,50 €' },
           { it: 'Red Bull 25cl', en: 'Red Bull 25cl', price: '4,00 €' },
         ]
@@ -601,15 +609,12 @@ export default function MenuPage() {
         />
         <div className="max-w-[var(--maxw)] mx-auto flex items-end justify-between flex-wrap gap-[24px]">
           <div>
-            <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)] block mb-[24px]">
-              {lang === 'it' ? 'Il nostro menù' : 'Our menu'}
-            </span>
             <h1 className="text-[clamp(56px,10vw,140px)] leading-[0.95]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
-              {lang === 'it' ? <>La cucina<br />di Gianluca.</> : <>Gianluca's<br />Kitchen.</>}
+              {lang === 'it' ? <>Il nostro<br />Menù.</> : <>Our<br />Menu.</>}
             </h1>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] max-w-[52ch]">
               {lang === 'it'
-                ? 'Clicca su ogni sezione per aprirla. Tradizione romana e non solo e materia prima dei Castelli, con un tocco di creatività è la nostra firma.'
+                ? <>Clicca su ogni sezione per aprirla.<br />Tradizione romana (e non solo) e materia prima dei Castelli, con un tocco di creatività sono la nostra firma.</>
                 : 'Click each section to expand it. Roman tradition and Castelli Romani produce, with a dash of creativity that is our signature.'
               }
             </p>
