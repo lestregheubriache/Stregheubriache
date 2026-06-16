@@ -142,7 +142,7 @@ export default function EsperienzePage() {
       icon: "🤝",
       tag: "Team building",
       title: "L'attività che unisce davvero il team.",
-      copy: "Dimentica le presentazioni PowerPoint. La Drinking Class o Cooking Class è un'attività di team building che mette tutti sullo stesso piano — dietro il bancone o con le mani in pasta. Competizione amichevole, collaborazione, risate vere. Disponibile per gruppi aziendali con formula personalizzata su misura.",
+      copy: "Dimentica le presentazioni PowerPoint. La Drinking Class o Cooking Class sono un'attività di team building che mette tutti sullo stesso piano — dietro il bancone o con le mani in pasta. Competizione amichevole, collaborazione, risate vere. Disponibile per gruppi aziendali con formula personalizzata su misura.",
       cta: "Scopri per le aziende →",
       waText: "Salve, siamo interessati alla Drinking Class / Cooking Class come attività di team building aziendale. Avete pacchetti dedicati?",
     },
@@ -302,10 +302,10 @@ export default function EsperienzePage() {
               L'esperienza in cucina
             </span>
             <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(32px,4.5vw,60px)] leading-[1.02]">
-              Mani in pasta,<br />come tradizione.
+              Mani in pasta,<br />come da tradizione.
             </h2>
             <p className="mt-[24px] text-[var(--cream-mute)] text-[16px] leading-[1.7]">
-              Unisciti a noi e vivi la cucina italiana. Impasta, stendi e taglia la tua pasta fresca, e gustala appena fatta. Prepara il tiramisù con la vera Moka italiana. Un'esperienza autentica e indimenticabile.
+              Unisciti a noi e vivi la cucina italiana. Impasta, stendi e taglia la tua pasta fresca, e gustala appena fatta. Prepara il tiramisù con la vera Moka italiana, o gusta il tuo Spritz. Un'esperienza autentica e indimenticabile.
             </p>
             <blockquote
               className="mt-[32px] px-[24px] py-[20px] border-l-[3px] rounded-r"
@@ -416,7 +416,7 @@ export default function EsperienzePage() {
               {[
                 'Menù dedicati e personalizzati',
                 'Selezione vini dei Castelli Romani',
-                'Possibilità di Drinking Class aziendale',
+                'Possibilità di Drinking Class e Cooking Class aziendale',
                 'Prenotazione esclusiva dell\'intero locale',
                 'Disponibile per compleanni, addii al celibato/nubilato, lauree, anniversari aziendali',
               ].map((item, i) => (
@@ -486,7 +486,6 @@ export default function EsperienzePage() {
                 {[
                   { dt: 'Prezzo', dd: '€ 39,00 a persona · possibilità di restare a cena' },
                   { dt: 'Quando', dd: 'Solo su prenotazione' },
-                  { dt: 'Orario', dd: 'Ore 18:30' },
                   { dt: 'Durata', dd: 'Circa 2 ore' },
                   { dt: 'Gruppo', dd: 'Piccoli gruppi · atmosfera intima' },
                   { dt: 'Lingua', dd: 'Italiano · English' },
@@ -512,7 +511,6 @@ export default function EsperienzePage() {
                 {[
                   { dt: 'Prezzo', dd: '€ 45,00 a persona · possibilità di restare a cena' },
                   { dt: 'Quando', dd: 'Solo su prenotazione' },
-                  { dt: 'Orario', dd: 'Ore 18:00' },
                   { dt: 'Durata', dd: 'Circa 2,5 ore' },
                   { dt: 'Gruppo', dd: 'Piccoli gruppi · atmosfera familiare' },
                   { dt: 'Lingua', dd: 'Italiano · English' },
