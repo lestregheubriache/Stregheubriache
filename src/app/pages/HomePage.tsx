@@ -11,6 +11,7 @@ import porchettaImg from '../../imports/IMG-20250913-WA0000.jpg';
 import dolciImg1 from '../../imports/677adf1d-ad30-4369-b9ad-16f21ada643f.jpeg';
 import dolciImg2 from '../../imports/62b58866-da86-4b87-a40c-f9109c78f04b.jpeg';
 import cantinaImg from '../../imports/fc666f90-5247-4de2-9807-6c8601342a10.jpeg';
+import logoImg from '../../imports/IMG_0464_2.png';
 
 type Lang = 'it' | 'en';
 
@@ -168,6 +169,15 @@ export default function HomePage() {
         <div
           className="absolute inset-0 -z-10 pointer-events-none"
           style={{ backgroundImage: 'repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 1px, transparent 1px 4px)' }}
+        />
+
+        {/* Logo watermark */}
+        <img
+          src={logoImg}
+          alt=""
+          aria-hidden="true"
+          className="absolute bottom-0 left-0 w-full pointer-events-none select-none"
+          style={{ zIndex: -1, opacity: 0.13 }}
         />
 
         {/* Top-right meta + IT/EN toggle */}

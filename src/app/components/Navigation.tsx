@@ -24,11 +24,6 @@ export default function Navigation({ solid = false }: NavigationProps) {
         className="flex items-center gap-[12px] font-[var(--serif)] text-[22px] tracking-[0.01em]"
         aria-label="Le Streghe Ubriache home"
       >
-        <img
-          src={logoImg}
-          alt="Le Streghe Ubriache logo"
-          className="h-[36px] w-auto"
-        />
         <span>Le Streghe Ubriache</span>
       </Link>
 
