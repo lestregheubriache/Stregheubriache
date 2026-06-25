@@ -171,15 +171,6 @@ export default function HomePage() {
           style={{ backgroundImage: 'repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 1px, transparent 1px 4px)' }}
         />
 
-        {/* Logo watermark */}
-        <img
-          src={logoImg}
-          alt=""
-          aria-hidden="true"
-          className="absolute bottom-0 left-0 w-full pointer-events-none select-none"
-          style={{ zIndex: -1, opacity: 0.13 }}
-        />
-
         {/* Top-right meta + IT/EN toggle */}
         <div className="absolute top-[120px] right-[var(--gutter)] flex flex-col gap-[8px] items-end max-[860px]:static max-[860px]:flex-row max-[860px]:items-center max-[860px]:justify-between max-[860px]:mb-[24px]">
           <div className="flex flex-col gap-[6px] items-end font-[var(--mono)] text-[11px] tracking-[0.22em] uppercase text-[var(--cream-mute)] max-[860px]:flex-row max-[860px]:gap-[12px]">
@@ -199,15 +190,25 @@ export default function HomePage() {
           </div>
         </div>
 
-        <h1 className="text-[clamp(70px,14vw,220px)] leading-[0.86] tracking-[-0.02em] max-w-[14ch]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500 }}>
-          <span className="text-[var(--cream)]">Le</span>{' '}
-          <span className="text-transparent" style={{ WebkitTextStroke: '1px var(--cream)' }}>Streghe</span>
-          <br />
-          <span className="text-[var(--cream)]">Ubriache</span>
-        </h1>
-        <p className="font-[var(--serif)] text-[clamp(32px,5.5vw,90px)] tracking-[0.02em] mt-[14px] leading-[0.95] whitespace-nowrap max-[860px]:whitespace-normal max-w-full overflow-hidden" style={{ color: '#c0392b' }}>
-          {t.heroSub}
-        </p>
+        <div className="relative">
+          {/* Logo watermark behind titles only */}
+          <img
+            src={logoImg}
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 w-full h-full object-contain object-left-bottom pointer-events-none select-none"
+            style={{ opacity: 0.15, zIndex: 0 }}
+          />
+          <h1 className="relative text-[clamp(70px,14vw,220px)] leading-[0.86] tracking-[-0.02em] max-w-[14ch]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500, zIndex: 1 }}>
+            <span className="text-[var(--cream)]">Le</span>{' '}
+            <span className="text-transparent" style={{ WebkitTextStroke: '1px var(--cream)' }}>Streghe</span>
+            <br />
+            <span className="text-[var(--cream)]">Ubriache</span>
+          </h1>
+          <p className="relative font-[var(--serif)] text-[clamp(32px,5.5vw,90px)] tracking-[0.02em] mt-[14px] leading-[0.95] whitespace-nowrap max-[860px]:whitespace-normal max-w-full overflow-hidden" style={{ color: '#c0392b', zIndex: 1 }}>
+            {t.heroSub}
+          </p>
+        </div>
 
         <div className="flex justify-between items-end gap-[40px] mt-[48px] flex-wrap">
           <p className="max-w-[42ch] text-[17px] text-[var(--cream-mute)] leading-[1.55]">{t.heroCopy}</p>
