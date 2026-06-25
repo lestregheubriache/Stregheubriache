@@ -309,6 +309,10 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Fata Del Bosco — Fragola, Schweppes Lemon, Mora', en: 'Fata Del Bosco — Strawberry, Schweppes Lemon, Blackberry', price: '7,00 €' },
           { it: 'Witch Berry — Cranberry, Ananas, Mora', en: 'Witch Berry — Cranberry, Pineapple, Blackberry', price: '7,00 €' },
           { it: 'Ginger Mint — Ginger beer, Lime, Menta', en: 'Ginger Mint — Ginger beer, Lime, Mint', price: '7,00 €' },
+          { it: 'Florida — Pesca, Schweppes Lemon, Granatina', en: 'Florida — Peach, Schweppes Lemon, Grenadine', price: '7,00 €' },
+          { it: 'San Francisco — Ananas, Arancia, Granatina', en: 'San Francisco — Pineapple, Orange, Grenadine', price: '7,00 €' },
+          { it: 'Fata Morgana — Pesca, Mango, Schweppes Lemon', en: 'Fata Morgana — Peach, Mango, Schweppes Lemon', price: '7,00 €' },
+          { it: 'Shirley Temple — Ginger beer, Limone, Granatina', en: 'Shirley Temple — Ginger beer, Lemon, Grenadine', price: '7,00 €' },
         ]
       },
       {
