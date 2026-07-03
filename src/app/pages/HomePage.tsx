@@ -191,14 +191,15 @@ export default function HomePage() {
         </div>
 
         <div className="relative">
-          {/* Logo watermark behind titles only */}
+          {/* Logo watermark — copre titoli + sottotitolo + descrizione */}
           <img
             src={logoImg}
             alt=""
             aria-hidden="true"
-            className="absolute inset-0 w-full h-full object-contain object-left-bottom pointer-events-none select-none"
-            style={{ opacity: 0.15, zIndex: 0 }}
+            className="absolute inset-0 w-full h-full object-cover object-left pointer-events-none select-none"
+            style={{ opacity: 0.14, zIndex: 0 }}
           />
+
           <h1 className="relative text-[clamp(70px,14vw,220px)] leading-[0.86] tracking-[-0.02em] max-w-[14ch]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500, zIndex: 1 }}>
             <span className="text-[var(--cream)]">Le</span>{' '}
             <span className="text-transparent" style={{ WebkitTextStroke: '1px var(--cream)' }}>Streghe</span>
@@ -208,21 +209,31 @@ export default function HomePage() {
           <p className="relative font-[var(--serif)] text-[clamp(32px,5.5vw,90px)] tracking-[0.02em] mt-[14px] leading-[0.95] whitespace-nowrap max-[860px]:whitespace-normal max-w-full overflow-hidden" style={{ color: '#c0392b', zIndex: 1 }}>
             {t.heroSub}
           </p>
-        </div>
 
-        <div className="flex justify-between items-end gap-[40px] mt-[48px] flex-wrap">
-          <p className="max-w-[42ch] text-[17px] text-[var(--cream-mute)] leading-[1.55]">{t.heroCopy}</p>
-          <div className="flex gap-[16px] flex-wrap">
-            <Button to="/menu" solid style={{ background: '#c0392b', borderColor: '#c0392b', color: '#fff' }}>
-              {t.heroMenu} <span className="font-[var(--serif)] text-[14px] tracking-normal normal-case">→</span>
-            </Button>
-            <a
-              href="https://wa.me/39069421645?text=Salve%20vorrei%20prenotare%20un%20tavolo"
-              target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-[10px] border border-[var(--rule-strong)] px-[22px] py-[13px] rounded-full font-[var(--mono)] text-[12px] tracking-[0.22em] uppercase text-[var(--cream)] transition-all duration-[250ms] hover:bg-[var(--cream)] hover:text-[var(--ink)] hover:border-[var(--cream)]"
-            >
-              {t.heroBook}
-            </a>
+          <div className="flex justify-between items-end gap-[40px] mt-[48px] flex-wrap">
+          <p className="relative max-w-[42ch] text-[17px] text-[var(--cream-mute)] leading-[1.55]" style={{ zIndex: 1 }}>{t.heroCopy}</p>
+          <div className="flex flex-col gap-[12px] items-end">
+            <div className="flex gap-[16px] flex-wrap justify-end">
+              <Button to="/menu" solid style={{ background: '#c0392b', borderColor: '#c0392b', color: '#fff' }}>
+                {t.heroMenu} <span className="font-[var(--serif)] text-[14px] tracking-normal normal-case">→</span>
+              </Button>
+              <a
+                href="https://wa.me/39069421645?text=Salve%20vorrei%20prenotare%20un%20tavolo"
+                target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-[10px] border border-[var(--rule-strong)] px-[22px] py-[13px] rounded-full font-[var(--mono)] text-[12px] tracking-[0.22em] uppercase text-[var(--cream)] transition-all duration-[250ms] hover:bg-[var(--cream)] hover:text-[var(--ink)] hover:border-[var(--cream)]"
+              >
+                {t.heroBook}
+              </a>
+            </div>
+            <div className="flex gap-[16px] flex-wrap justify-end">
+              <Button to="/storia">
+                {lang === 'it' ? 'La nostra storia' : 'Our story'} <span className="font-[var(--serif)] text-[14px] tracking-normal normal-case">→</span>
+              </Button>
+              <Button to="/esperienze">
+                {lang === 'it' ? 'Le esperienze' : 'Experiences'} <span className="font-[var(--serif)] text-[14px] tracking-normal normal-case">→</span>
+              </Button>
+            </div>
+          </div>
           </div>
         </div>
       </section>

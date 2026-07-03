@@ -95,11 +95,11 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Primi Piatti · Tutta la pasta è fatta in casa.', en: 'First Courses · All pasta is home-made.' },
         items: [
-          { it: 'Maccheronici alla Mediterranea — Ragù di Melanzane, Ricotta Salata, Olio alle erbe, Crunchy di Cipolla', en: 'Maccheroni alla Mediterranea — Eggplant ragù, Salted Ricotta, Herb oil, Crispy onion', price: '14,00 €' },
-          { it: 'Spaghettoni al Pesto di Zucchine e Mandorle con briciole di Olive e polvere di Peperone Crusco', en: 'Spaghettoni with Zucchini & Almond pesto, Olive crumble, Crusco Pepper powder', price: '14,00 €' },
+          { it: 'Tonnarelli alla Mediterranea — Crema di Melanzane, Ricotta Salata, Olio alle erbe, Crunchy di Cipolla', en: 'Tonnarelli alla Mediterranea — Eggplant cream, Salted Ricotta, Herb oil, Crispy onion', price: '14,00 €' },
           { it: 'Fettuccine al ragù di Scottona', en: 'Fettuccine with Scottona beef ragù', price: '14,00 €' },
-          { it: 'Tonnarello Cacio e Pepe', en: 'Tonnarello Cacio e Pepe (pecorino & pepper)', price: '13,00 €' },
-          { it: 'Maccheroncini alla Carbonara / Amatriciana / Gricia', en: 'Maccheroni Carbonara / Amatriciana / Gricia', price: '14,00 €' },
+          { it: 'Tonnarello Cacio e Pepe', en: 'Tonnarello Cacio e Pepe (pecorino & pepper)', price: '14,00 €' },
+          { it: 'Maccheroncini alla Carbonara / Gricia', en: 'Maccheroni Carbonara / Gricia', price: '14,00 €' },
+          { it: 'Spaghettoni all\'Amatriciana', en: 'Spaghettoni all\'Amatriciana', price: '14,00 €' },
           { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
         ]
       },
@@ -151,7 +151,6 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Orient Express — Carpaccio di Manzo, Insalata Iceberg, Salsa Mango e Curry', en: 'Orient Express — Beef Carpaccio, Iceberg Lettuce, Mango & Curry sauce', price: '10,00 €' },
           { it: 'Strega (un po\' piccante) — Pomodoro, Mozzarella, Melanzane, Pecorino semistagionato, Grana', en: 'Strega (slightly spicy) — Tomato, Mozzarella, Eggplant, Semi-aged Pecorino, Parmesan', price: '10,00 €' },
           { it: 'Vegetariana — Mozzarella, Zucchine, Melanzane, Datterini', en: 'Vegetarian — Mozzarella, Courgettes, Eggplant, Datterini tomatoes', price: '10,00 €' },
-          { it: 'Golosa — Gorgonzola, Pere, Noci, Miele', en: 'Golosa — Gorgonzola, Pears, Walnuts, Honey', price: '10,00 €' },
           { it: 'La Ribelle — Porchetta, Cicoria ripassata, Salsa Mango Habanero', en: 'La Ribelle — Porchetta, Sautéed Cicoria, Mango Habanero sauce', price: '10,00 €' },
           { it: 'Mortazza — Mozzarella di Bufala, Mortadella di Cinghiale, Crema di Pistacchio', en: 'Mortazza — Bufala Mozzarella, Wild Boar Mortadella, Pistachio cream', price: '10,00 €' },
           { it: '666 (un po\' piccante) — Pomodoro, Mozzarella, N\'duja', en: '666 (slightly spicy) — Tomato, Mozzarella, N\'duja salami', price: '10,00 €' },
@@ -194,10 +193,10 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Vini Bianchi', en: 'White Wines' },
         items: [
-          { it: 'Filiae Frascati Superiore DOCG — Borgo del Cedro · Profumi fruttati di agrumi e fiori di acacia', en: 'Filiae Frascati Superiore DOCG — Borgo del Cedro · Fruity aromas of citrus and acacia flowers', price: '20,00 €' },
+          { it: 'Frascati Superiore DOCG Riserva Vigneto Filonardi — Villa Simone · Aromi di frutta matura, fiori bianchi, agrumi e leggere sfumature di mandorla, seguiti da delicate note speziate e una netta componente minerale', en: 'Frascati Superiore DOCG Riserva Vigneto Filonardi — Villa Simone · Aromas of ripe fruit, white flowers, citrus and light almond hints, followed by delicate spiced notes and a clear mineral component', price: '29,00 €' },
           { it: 'Il Mamilio Frascati Superiore DOCG — Colle Arnaldo · Bouquet di fiori bianchi ed erbe aromatiche', en: 'Il Mamilio Frascati Superiore DOCG — Colle Arnaldo · White flower & aromatic herb bouquet', price: '25,00 €' },
           { it: 'Vigneto Santa Teresa Frascati Superiore DOCG — Fontana Candida · Profumi fini e delicati di fiori, mela, salvia ed erbe aromatiche con un caratteristico fondo di mandorla dolce', en: 'Vigneto Santa Teresa Frascati Superiore DOCG — Fontana Candida · Delicate floral aromas, apple, sage and aromatic herbs with a characteristic sweet almond finish', price: '20,00 €' },
-          { it: 'Apà Frascati Superiore DOCG — Torre dei Falchi · Al naso profumi autentici: terra, erba e violette. In bocca è pieno e avvolgente, con note di ciliegia e prugna', en: 'Apà Frascati Superiore DOCG — Torre dei Falchi · Authentic aromas of earth, herbs and violets. Full and enveloping on the palate with cherry and plum notes', price: '23,00 €' },
+          { it: 'Apà Frascati Superiore DOCG — Torre dei Falchi · Sentori di fiori bianchi e melone giallo. D\'importante mineralità', en: 'Apà Frascati Superiore DOCG — Torre dei Falchi · Notes of white flowers and yellow melon. Notably mineral', price: '23,00 €' },
           { it: 'Vigneto La Torretta di Valle Marciana Frascati Superiore Riserva DOCG BIO — Gabriele Magno · Sfumature floreali che donano freschezza, note di pesca, susina, albicocca ed erbe aromatiche. Balsamicità finale', en: 'Vigneto La Torretta di Valle Marciana Frascati Superiore Riserva DOCG BIO — Gabriele Magno · Fresh floral nuances with peach, plum, apricot and aromatic herbs. Balsamic finish', price: '37,00 €' },
           { it: 'Donnaluce Bianco IGT — Poggio Le Volpi · Note di albicocca, pesca e litchi', en: 'Donnaluce Bianco IGT — Poggio Le Volpi · Apricot, peach and lychee notes', price: '30,00 €' },
           { it: 'Frascati Superiore DOCG BIO — Gabriele Magno · Frutta esotica e pesca bianca', en: 'Frascati Superiore DOCG BIO — Gabriele Magno · Exotic fruit & white peach', price: '24,00 €' },
@@ -212,7 +211,7 @@ const MENU_SECTIONS: MenuSection[] = [
         title: { it: 'Vini Rossi', en: 'Red Wines' },
         items: [
           { it: 'Baccarossa Rosso IGT — Poggio Le Volpi · Frutti di bosco, spezie dolci e tabacco', en: 'Baccarossa Rosso IGT — Poggio Le Volpi · Wild berries, sweet spices & tobacco', price: '32,00 €' },
-          { it: 'Cesanese Lazio IGP BIO — Gabriele Magno · Note balsamiche, cacao e spezie dolci', en: 'Cesanese Lazio IGP BIO — Gabriele Magno · Balsamic, cocoa & sweet spice notes', price: '28,00 €' },
+          { it: 'Cesanese Lazio IGP BIO — Gabriele Magno · Note balsamiche, cacao e spezie dolci · (al momento non disponibile)', en: 'Cesanese Lazio IGP BIO — Gabriele Magno · Balsamic, cocoa & sweet spice notes · (currently unavailable)', price: '28,00 €' },
           { it: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Note frutti di bosco con un lieve sentore fumée. Al palato fresco, ma con un tannino evidente', en: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Wild berry notes with a light smoky hint. Fresh on the palate with evident tannins', price: '26,00 €' },
           { it: 'Cremera Roma DOC Rosso — Terre del Veio · Frutta rossa matura dal finale speziato, cacao e tabacco dolce', en: 'Cremera Roma DOC Rosso — Terre del Veio · Ripe red fruit with a spiced finish, cocoa and sweet tobacco', price: '22,00 €' },
           { it: 'Polluce Nero Buono — Cincinnato · Sapore delicato, armonico con elegante complessità', en: 'Polluce Nero Buono — Cincinnato · Delicate, harmonious flavour with elegant complexity', price: '21,00 €' },
