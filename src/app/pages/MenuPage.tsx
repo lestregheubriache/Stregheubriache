@@ -67,18 +67,19 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Entrée', en: 'Starters' },
         items: [
-          { it: 'Tartare di Scottona — olio e sale o cipolla caramellata e crema di pecorino', en: 'Scottona Tartare — oil & salt or caramelised onion & pecorino cream', price: '11,00 €' },
-          { it: 'Carpaccio di Black Angus — leggermente affumicato e aromatizzato agli agrumi', en: 'Black Angus Carpaccio — lightly smoked with citrus', price: '11,00 €' },
-          { it: 'Crostino di Pane Multicereali — Hummus, Cicoria, Bufala e Bacon', en: 'Multigrain Toast — Hummus, Cicoria, Bufala cheese & Bacon', price: '9,00 €' },
-          { it: 'Polpettine della Nonna — all\'Amatriciana', en: 'Grandma\'s Meatballs — Amatriciana style', price: '8,00 €' },
-          { it: 'Polpettine della Nonna — Cacio e Pepe', en: 'Grandma\'s Meatballs — Cacio e Pepe (cheese & pepper)', price: '8,00 €' },
-          { it: 'Polpettine della Nonna — alla Cacciatora', en: 'Grandma\'s Meatballs — alla Cacciatora (olives & rosemary)', price: '8,50 €' },
+          { it: 'Tartare di Manzo — olio e sale', en: 'Beef Tartare — oil & salt', price: '11,00 €' },
+          { it: 'Tartare di Manzo — cipolla caramellata e crema di pecorino', en: 'Beef Tartare — caramelised onion & pecorino cream', price: '12,00 €' },
+          { it: 'Carpaccio di Black Angus — leggermente affumicato e aromatizzato agli agrumi', en: 'Black Angus Carpaccio — lightly smoked with citrus', price: '12,00 €' },
+          { it: 'Crostino di Pane Multicereali — Guacamole, Stracciata di Bufala, Datterini e Crunchy di Cipolla', en: 'Multigrain Toast — Guacamole, Bufala Stracciata, Datterini & Crispy Onion', price: '10,00 €' },
+          { it: 'Polpettine della Nonna — all\'Amatriciana', en: 'Grandma\'s Meatballs — Amatriciana style', price: '9,00 €' },
+          { it: 'Polpettine della Nonna — Cacio e Pepe', en: 'Grandma\'s Meatballs — Cacio e Pepe (cheese & pepper)', price: '9,00 €' },
+          { it: 'Polpettine della Nonna — alla Cacciatora', en: 'Grandma\'s Meatballs — alla Cacciatora (olives & rosemary)', price: '9,00 €' },
         ]
       },
       {
         title: { it: 'Sfizi', en: 'Snacks' },
         items: [
-          { it: 'Arrosticini Abruzzesi (pz.10)', en: 'Abruzzese Arrosticini — sheep meat skewers (10 pcs)', price: '12,00 €' },
+          { it: 'Arrosticini Abruzzesi (pz.10)', en: 'Abruzzese Arrosticini — sheep meat skewers (10 pcs)', price: '13,00 €' },
           { it: 'Polpette di Pulled Pork — panatura di corn flakes e salsa mango habanero', en: 'Pulled Pork Balls — cornflakes coating & mango habanero sauce', price: '9,00 €' },
           { it: 'Foglie di Borragine — crosta di farina di grano con spicy mayo', en: 'Borage Leaves — wheat flour crust with spicy mayo', price: '8,00 €' },
         ]
@@ -110,7 +111,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Tagliata di Controfiletto di Scottona — con Lardo speziato', en: 'Scottona Sirloin Cut — with spiced lard', price: '26,00 €' },
           { it: 'Tagliata di Controfiletto di Scottona — con salsa di Gorgonzola e Pepe verde', en: 'Scottona Sirloin Cut — Gorgonzola & green pepper sauce', price: '27,00 €' },
           { it: 'Brasato di Guancia di Vitella brasata al Cesanese — patate e verdure al burro', en: 'Braised Veal Cheek in Cesanese wine — buttered potatoes & vegetables', price: '20,00 €' },
-          { it: 'Stinchetto al forno con patate', en: 'Oven-baked Pork Knuckle with potatoes', price: '19,00 €' },
+          { it: 'Stinchetto al forno con patate', en: 'Oven-baked Pork Knuckle with potatoes', price: '20,00 €' },
           { it: 'Straccetti di Manzo — rucola, pachino e grana', en: 'Beef Straccetti — rocket, cherry tomatoes & parmesan', price: '18,00 €' },
           { it: 'Tagliata di Pollo alla griglia — rucola, pachino e grana', en: 'Grilled Chicken Cut — rocket, cherry tomatoes & parmesan', price: '18,00 €' },
           { it: 'Tagliata di Pollo alla griglia — erbette di campo', en: 'Grilled Chicken Cut — wild field herbs', price: '16,00 €' },
@@ -137,8 +138,8 @@ const MENU_SECTIONS: MenuSection[] = [
         title: { it: 'Hamburger', en: 'Burgers' },
         items: [
           { it: 'BaconCheeseBurger / CheeseBurger — Hamburger, Formaggio, Bacon, Pomodoro, Insalata', en: 'BaconCheeseBurger / CheeseBurger — Patty, Cheese, Bacon, Tomato, Lettuce', price: '9,00 € / con patate 12,00 €' },
-          { it: 'Contadino — Hamburger, Pecorino Romano DOP, Melanzana, Bacon, Pomodoro, Insalata', en: 'Contadino — Patty, DOP Pecorino Romano, Eggplant, Bacon, Tomato, Lettuce', price: '12,50 € / con patate 15,50 €' },
-          { it: 'Doc — Doppio Hamburger & Doppio Formaggio, Bacon, Pomodoro', en: 'Doc — Double Patty & Double Cheese, Bacon, Tomato', price: '14,00 € / con patate 17,00 €' },
+          { it: 'Contadino — Hamburger, Pecorino Romano DOP, Melanzana, Bacon, Pomodoro, Insalata', en: 'Contadino — Patty, DOP Pecorino Romano, Eggplant, Bacon, Tomato, Lettuce', price: '13,00 € / con patate 16,00 €' },
+          { it: 'Doc — Doppio Hamburger & Doppio Formaggio, Bacon, Pomodoro', en: 'Doc — Double Patty & Double Cheese, Bacon, Tomato', price: '15,00 € / con patate 18,00 €' },
           { it: 'MegaBurger — Hamburger, Cheddar, Bacon, Uovo, Cipolla caramellata', en: 'MegaBurger — Patty, Cheddar, Bacon, Egg, Caramelised Onion', price: '12,00 € / con patate 15,00 €' },
         ]
       },
@@ -160,10 +161,10 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Insalate', en: 'Salads' },
         items: [
-          { it: 'Vivace — Bufala, Alici, Pomodorini, Melanzane, Datterini', en: 'Vivace — Bufala, Anchovies, Cherry tomatoes, Eggplant, Datterini', price: '8,00 €' },
-          { it: 'Pollo — Pollo alla Griglia, Olive, Datterini, Grana', en: 'Pollo — Grilled Chicken, Olives, Datterini, Parmesan', price: '8,00 €' },
-          { it: 'Verde — Valeriana, Rughetta e Gentile con Datterini', en: 'Verde — Mixed leaves & Datterini tomatoes', price: '5,00 €' },
-          { it: 'La Leggera — Insalatina, Finocchi, Arance, Olive', en: 'La Leggera — Mixed leaves, Fennel, Orange, Olives', price: '6,00 €' },
+          { it: 'Vivace — Bufala, Alici, Pomodorini, Melanzane, Datterini', en: 'Vivace — Bufala, Anchovies, Cherry tomatoes, Eggplant, Datterini', price: '9,00 €' },
+          { it: 'Pollo — Pollo alla Griglia, Olive, Datterini, Grana', en: 'Pollo — Grilled Chicken, Olives, Datterini, Parmesan', price: '9,00 €' },
+          { it: 'Verde — Valeriana, Rughetta e Gentile con Datterini', en: 'Verde — Mixed leaves & Datterini tomatoes', price: '6,00 €' },
+          { it: 'La Leggera — Insalatina, Finocchi, Arance, Olive', en: 'La Leggera — Mixed leaves, Fennel, Orange, Olives', price: '7,00 €' },
         ]
       },
       {
