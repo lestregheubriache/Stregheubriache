@@ -49,7 +49,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'TRISGRANOCCHIO — Verdure, pane bruscato e bufala · 2 calici di vino o 2 drink', en: 'TRISGRANOCCHIO — Vegetables, toasted bread & bufala · 2 glasses of wine or 2 drinks', price: '18,00 €' },
           { it: 'TAGLIERE X 2 — Prosciutto e Salumi Locali, Pecorini di Diversa Stagionatura, Porchetta e focaccia (opzione vegetariana disponibile) · 2 calici o 2 drink', en: 'SHARING BOARD X 2 — Local Ham & Cured Meats, Pecorino cheese, Porchetta & focaccia (vegetarian option available) · 2 glasses or 2 drinks', price: '28,00 €' },
           { it: 'LE PINSOTTELLE — Pinsottella Romana a scelta dal menù · 2 calici o 2 drink', en: 'LE PINSOTTELLE — Roman pinsottella of your choice · 2 glasses or 2 drinks' },
-          { it: 'SFIZI DAL FORNO — Polpette di Pulled Pork, Foglie di Borragine, Polpette della Nonna, Patate, Bruschette al lardo speziato · 2 calici o 2 drink', en: 'BAKED BITES — Pulled Pork balls, Borage leaves, Grandma\'s meatballs, Potatoes, Spiced lard bruschetta · 2 glasses or 2 drinks', price: '30,00 €' },
+          { it: 'SFIZI DAL FORNO — Polpette della Nonna, Patate, Bruschette al lardo speziato · 2 calici o 2 drink', en: 'BAKED BITES — Grandma\'s meatballs, Potatoes, Spiced lard bruschetta · 2 glasses or 2 drinks', price: '30,00 €' },
           { it: 'CRUDI E BOLLICINE — Tartare del giorno, Carpaccio di Manzo agli Agrumi, Carpaccio di Bresaola timo e fili di peperoncino · Bottiglia di Prosecco (upgrade disponibile)', en: 'RAW & BUBBLES — Daily tartare, Citrus Beef Carpaccio, Bresaola Carpaccio with thyme & chilli · Bottle of Prosecco (upgrade available)', price: '40,00 €' },
           { it: 'PER I VINI E I DRINK, CONSULTA LA NOSTRA WINE/DRINK LIST', en: 'FOR WINES AND DRINKS, SEE OUR WINE/DRINK LIST' },
           { it: 'OPPURE SCEGLI DAL MENÙ CIÒ CHE PREFERISCI', en: 'OR CHOOSE FREELY FROM THE MENU' },
@@ -74,14 +74,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Polpettine della Nonna — all\'Amatriciana', en: 'Grandma\'s Meatballs — Amatriciana style', price: '9,00 €' },
           { it: 'Polpettine della Nonna — Cacio e Pepe', en: 'Grandma\'s Meatballs — Cacio e Pepe (cheese & pepper)', price: '9,00 €' },
           { it: 'Polpettine della Nonna — alla Cacciatora', en: 'Grandma\'s Meatballs — alla Cacciatora (olives & rosemary)', price: '9,00 €' },
-        ]
-      },
-      {
-        title: { it: 'Sfizi', en: 'Snacks' },
-        items: [
           { it: 'Arrosticini Abruzzesi (pz.10)', en: 'Abruzzese Arrosticini — sheep meat skewers (10 pcs)', price: '13,00 €' },
-          { it: 'Polpette di Pulled Pork — panatura di corn flakes e salsa mango habanero', en: 'Pulled Pork Balls — cornflakes coating & mango habanero sauce', price: '9,00 €' },
-          { it: 'Foglie di Borragine — crosta di farina di grano con spicy mayo', en: 'Borage Leaves — wheat flour crust with spicy mayo', price: '8,00 €' },
         ]
       },
       {
@@ -456,8 +449,6 @@ const MENU_SECTIONS: MenuSection[] = [
         title: { it: 'Avvertenze principali', en: 'Key Allergen Warnings' },
         items: [
           { it: 'Tris snack (1,6,11)', en: 'Tris snack (1,6,11)' },
-          { it: 'Polpette di Pulled Pork (1,3,4,6,7,8,10)', en: 'Pulled Pork Balls (1,3,4,6,7,8,10)' },
-          { it: 'Foglie di Borragine (1,4,6,7,8)', en: 'Borage Leaves (1,4,6,7,8)' },
           { it: 'Tartare di Scottona con crema di pecorino (7)', en: 'Scottona Tartare with pecorino cream (7)' },
           { it: 'Crostino Multicereali Hummus Bufala Bacon (1,7)', en: 'Multigrain Toast Hummus Bufala Bacon (1,7)' },
           { it: 'Tagliere Nostrum (7,8)', en: 'Tagliere Nostrum (7,8)' },
