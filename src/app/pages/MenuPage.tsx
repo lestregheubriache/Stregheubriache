@@ -120,7 +120,7 @@ const MENU_SECTIONS: MenuSection[] = [
         ]
       },
       {
-        title: { it: 'Patate a spicchi cotte al forno aromatizzate.', en: 'Aromatic Oven-Baked Potato Wedges.' },
+        title: { it: 'Patate cotte al forno aromatizzate.', en: 'Aromatic Oven-Baked Potatoes.' },
         items: [
           { it: 'Classic', en: 'Classic', price: '5,00 €' },
           { it: 'Bacon & Cheddar', en: 'Bacon & Cheddar', price: '7,50 €' },
@@ -128,7 +128,7 @@ const MENU_SECTIONS: MenuSection[] = [
         ]
       },
       {
-        title: { it: 'Hamburger', en: 'Burgers' },
+        title: { it: 'Hamburger — carne di scottona min. 180 gr; pane artigianale con lievito madre e tre selezionate farine', en: 'Burgers — min. 180g scottona beef; artisan sourdough bun with three selected flours' },
         items: [
           { it: 'BaconCheeseBurger / CheeseBurger — Hamburger, Formaggio, Bacon, Pomodoro, Insalata', en: 'BaconCheeseBurger / CheeseBurger — Patty, Cheese, Bacon, Tomato, Lettuce', price: '9,00 € / con patate 12,00 €' },
           { it: 'Contadino — Hamburger, Pecorino Romano DOP, Melanzana, Bacon, Pomodoro, Insalata', en: 'Contadino — Patty, DOP Pecorino Romano, Eggplant, Bacon, Tomato, Lettuce', price: '13,00 € / con patate 16,00 €' },
