@@ -157,7 +157,6 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Vivace — Bufala, Alici, Pomodorini, Melanzane, Datterini', en: 'Vivace — Bufala, Anchovies, Cherry tomatoes, Eggplant, Datterini', price: '9,00 €' },
           { it: 'Pollo — Pollo alla Griglia, Olive, Datterini, Grana', en: 'Pollo — Grilled Chicken, Olives, Datterini, Parmesan', price: '9,00 €' },
           { it: 'Verde — Valeriana, Rughetta e Gentile con Datterini', en: 'Verde — Mixed leaves & Datterini tomatoes', price: '6,00 €' },
-          { it: 'La Leggera — Insalatina, Finocchi, Arance, Olive', en: 'La Leggera — Mixed leaves, Fennel, Orange, Olives', price: '7,00 €' },
         ]
       },
       {
