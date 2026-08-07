@@ -324,7 +324,6 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'La Dama La Bruna — Scura Artigianale, 33cl', en: 'La Dama La Bruna — Craft Dark, 33cl', price: '7,50 €' },
           { it: 'Guinness 33cl', en: 'Guinness 33cl', price: '6,00 €' },
           { it: 'Carlsberg 33cl', en: 'Carlsberg 33cl', price: '4,00 €' },
-          { it: 'Brooklyn Session IPA', en: 'Brooklyn Session IPA', price: '5,00 €' },
           { it: 'Corona 33cl', en: 'Corona 33cl', price: '5,00 €' },
           { it: 'Tennent\'s 33cl', en: 'Tennent\'s 33cl', price: '5,00 €' },
           { it: 'Grinbergen Double Doppio Malto d\'Abbazia 33cl', en: 'Grinbergen Double Abbey Double Malt 33cl', price: '6,00 €' },
