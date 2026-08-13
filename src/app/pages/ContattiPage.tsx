@@ -66,8 +66,8 @@ export default function ContattiPage() {
               Telefono
             </dt>
             <dd>
-              <a href="tel:+390694921645" className="font-[var(--serif)] text-[22px] hover:text-[var(--ember)] transition-colors">
-                +39 06 94921645
+              <a href="tel:+39069421645" className="font-[var(--serif)] text-[22px] hover:text-[var(--ember)] transition-colors">
+                +39 06 9421645
               </a>
               <span className="block mt-[6px] font-[var(--mono)] text-[10px] tracking-[0.18em] uppercase text-[var(--ember)]">
                 Anche su WhatsApp · puoi chiamarci o scriverci
