@@ -130,6 +130,46 @@ const T = {
   }
 };
 
+function ClosurePopup() {
+  const now = new Date();
+  const start = new Date('2026-08-16T08:00:00');
+  const end = new Date('2026-08-21T00:00:00');
+  const [open, setOpen] = useState(now >= start && now < end);
+
+  useEffect(() => {
+    if (!open) return;
+    const t = setTimeout(() => setOpen(false), 5000);
+    return () => clearTimeout(t);
+  }, [open]);
+
+  if (!open) return null;
+
+  return (
+    <div
+      className="fixed inset-0 z-[9999] flex items-center justify-center px-[24px]"
+      style={{ background: 'rgba(10,10,10,0.78)', backdropFilter: 'blur(4px)' }}
+      onClick={() => setOpen(false)}
+    >
+      <div
+        className="relative max-w-[480px] w-full rounded-[4px] border border-[var(--rule-strong)] px-[40px] py-[48px] text-center"
+        style={{ background: 'var(--ink)' }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--ember)]">
+          Avviso
+        </span>
+        <h2 className="font-[var(--serif)] text-[clamp(28px,5vw,40px)] mt-[16px] leading-[1.1]">
+          Ci prendiamo<br />una pausa.
+        </h2>
+        <p className="mt-[20px] text-[17px] leading-[1.7] text-[var(--cream-mute)]">
+          Saremo chiusi dal <strong className="text-[var(--cream)]">16 al 20 agosto</strong> compresi.
+          Ci rivediamo in cantina dal <strong className="text-[var(--cream)]">21 agosto</strong> — con tanta energia e voglia di brindare insieme.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 export default function HomePage() {
   const [lang, setLang] = useState<Lang>('it');
   const t = T[lang];
@@ -153,6 +193,7 @@ export default function HomePage() {
 
   return (
     <div>
+      <ClosurePopup />
       <Navigation />
 
       {/* Hero */}
