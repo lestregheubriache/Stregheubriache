@@ -132,7 +132,7 @@ const T = {
 
 function ClosurePopup() {
   const now = new Date();
-  const start = new Date('2026-08-16T08:00:00');
+  const start = new Date('2026-08-16T00:00:00');
   const end = new Date('2026-08-21T00:00:00');
   const [open, setOpen] = useState(now >= start && now < end);
 
