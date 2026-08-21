@@ -38,7 +38,7 @@ const T = {
     menuTag: 'Selezione dello chef',
     menuTitle: 'Dalla nostra cucina,\ncon un tocco di creatività.',
     dishes: [
-      { name: 'Tartare di Scottona', description: 'Cipolla caramellata e cremoso di pecorino', price: '11 €' },
+      { name: 'Tartare di Scottona', description: 'Cipolla caramellata e cremoso di pecorino', price: '12 €' },
       { name: 'Carpaccio di Black Angus', description: 'Leggermente affumicato agli agrumi', price: '11 €' },
       { name: 'Fettuccine al ragù di Scottona', description: 'Pasta fatta in casa, 100% grano italiano', price: '14 €' },
       { name: 'Maccheroni alla Gricia', description: 'Tradizione romana anche con creatività', price: '14 €' },
@@ -93,7 +93,7 @@ const T = {
     menuTag: 'Chef\'s selection',
     menuTitle: 'From our kitchen,\nwith a touch of creativity.',
     dishes: [
-      { name: 'Scottona Tartare', description: 'Caramelised onion & pecorino cream', price: '11 €' },
+      { name: 'Scottona Tartare', description: 'Caramelised onion & pecorino cream', price: '12 €' },
       { name: 'Black Angus Carpaccio', description: 'Lightly smoked with citrus', price: '11 €' },
       { name: 'Fettuccine with Scottona ragù', description: 'Home-made pasta, 100% Italian wheat', price: '14 €' },
       { name: 'Tonnarello Cacio e Pepe', description: 'Pure Roman tradition', price: '13 €' },
