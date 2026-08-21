@@ -86,7 +86,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/lestregheubriache"
+                  href="https://www.facebook.com/share/1Evm9wAZdo/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[var(--ember)] transition-colors"
