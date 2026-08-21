@@ -76,7 +76,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-[10px] text-[13px] list-none">
               <li>
                 <a
-                  href="https://www.instagram.com/lestregheubriache"
+                  href="https://www.instagram.com/le_streghe_ubriache"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[var(--ember)] transition-colors"
