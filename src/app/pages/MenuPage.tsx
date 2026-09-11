@@ -105,7 +105,6 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Tagliata di Controfiletto di Scottona — con salsa di Gorgonzola e Pepe verde', en: 'Scottona Sirloin Cut — Gorgonzola & green pepper sauce', price: '27,00 €' },
           { it: 'Brasato di Guancia di Vitella brasata al Cesanese — patate e verdure al burro', en: 'Braised Veal Cheek in Cesanese wine — buttered potatoes & vegetables', price: '20,00 €' },
           { it: 'Stinchetto al forno con patate', en: 'Oven-baked Pork Knuckle with potatoes', price: '20,00 €' },
-          { it: 'Straccetti di Manzo — rucola, pachino e grana', en: 'Beef Straccetti — rocket, cherry tomatoes & parmesan', price: '18,00 €' },
           { it: 'Tagliata di Pollo alla griglia — rucola, pachino e grana', en: 'Grilled Chicken Cut — rocket, cherry tomatoes & parmesan', price: '18,00 €' },
           { it: 'Tagliata di Pollo alla griglia — erbette di campo', en: 'Grilled Chicken Cut — wild field herbs', price: '16,00 €' },
           { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
