@@ -48,7 +48,7 @@ const MENU_SECTIONS: MenuSection[] = [
         items: [
           { it: 'TRISGRANOCCHIO — Verdure, pane bruscato e bufala · 2 calici di vino o 2 drink', en: 'TRISGRANOCCHIO — Vegetables, toasted bread & bufala · 2 glasses of wine or 2 drinks', price: '18,00 €' },
           { it: 'TAGLIERE X 2 — Prosciutto e Salumi Locali, Pecorini di Diversa Stagionatura, Porchetta e focaccia (opzione vegetariana disponibile) · 2 calici o 2 drink', en: 'SHARING BOARD X 2 — Local Ham & Cured Meats, Pecorino cheese, Porchetta & focaccia (vegetarian option available) · 2 glasses or 2 drinks', price: '28,00 €' },
-          { it: 'LE PINSOTTELLE — Pinsottella Romana a scelta dal menù · 2 calici o 2 drink', en: 'LE PINSOTTELLE — Roman pinsottella of your choice · 2 glasses or 2 drinks' },
+          { it: 'LE PINSOTTELLE — Pinsottella Romana a scelta dal menù · 2 calici o 2 drink', en: 'LE PINSOTTELLE — Roman pinsottella of your choice · 2 glasses or 2 drinks', price: '21,00 €' },
           { it: 'SFIZI DAL FORNO — Polpette della Nonna, Patate, Bruschette al lardo speziato · 2 calici o 2 drink', en: 'BAKED BITES — Grandma\'s meatballs, Potatoes, Spiced lard bruschetta · 2 glasses or 2 drinks', price: '30,00 €' },
           { it: 'CRUDI E BOLLICINE — Tartare del giorno, Carpaccio di Manzo agli Agrumi, Carpaccio di Bresaola timo e fili di peperoncino · Bottiglia di Prosecco (upgrade disponibile)', en: 'RAW & BUBBLES — Daily tartare, Citrus Beef Carpaccio, Bresaola Carpaccio with thyme & chilli · Bottle of Prosecco (upgrade available)', price: '40,00 €' },
           { it: 'PER I VINI E I DRINK, CONSULTA LA NOSTRA WINE/DRINK LIST', en: 'FOR WINES AND DRINKS, SEE OUR WINE/DRINK LIST' },

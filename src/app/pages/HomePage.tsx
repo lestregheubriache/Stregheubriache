@@ -25,9 +25,9 @@ const T = {
     heroBook: 'Prenota su WhatsApp',
     infoStrip: [
       { label: 'Dove', value: 'Via Vincenzo Gioberti, 6\nFrascati (RM)', link: GMAPS },
-      { label: 'Quando', value: 'Mer — Dom · dalle 18', link: 'https://share.google/z1JEYaXGlAt39EFDd' },
+      { label: 'Quando', value: 'Mer — Dom · dalle 18\nDom anche a pranzo 12.30–15.00', link: 'https://share.google/z1JEYaXGlAt39EFDd' },
       { label: 'Specialità', value: 'Pane, pasta, porchetta\ne dolci fatti in casa · prodotti km 0' },
-      { label: 'Formule', value: 'Aperitivo · cena\ndopocena' },
+      { label: 'Formule', value: 'Aperitivo · cena\ndopocena · pranzo della domenica' },
     ],
     storyTag: 'La nostra storia',
     storyTitle: 'Una cantina\ndel 1750.',
