@@ -70,17 +70,17 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Tartare di Manzo — olio e sale', en: 'Beef Tartare — oil & salt', price: '11,00 €' },
           { it: 'Tartare di Manzo — cipolla caramellata e crema di pecorino', en: 'Beef Tartare — caramelised onion & pecorino cream', price: '12,00 €' },
           { it: 'Carpaccio di Black Angus — leggermente affumicato e aromatizzato agli agrumi', en: 'Black Angus Carpaccio — lightly smoked with citrus', price: '12,00 €' },
-          { it: 'Crostino di Pane Multicereali — Guacamole, Stracciata di Bufala, Datterini e Crunchy di Cipolla', en: 'Multigrain Toast — Guacamole, Bufala Stracciata, Datterini & Crispy Onion', price: '10,00 €' },
+          { it: 'Crostino di Pane Multicereali — Zucca al forno, Fonduta di Gorgonzola, Noci e Pepe Verde', en: 'Multigrain Toast — Roasted Pumpkin, Gorgonzola Fondue, Walnuts & Green Pepper', price: '10,00 €' },
           { it: 'Polpettine della Nonna — all\'Amatriciana', en: 'Grandma\'s Meatballs — Amatriciana style', price: '9,00 €' },
           { it: 'Polpettine della Nonna — Cacio e Pepe', en: 'Grandma\'s Meatballs — Cacio e Pepe (cheese & pepper)', price: '9,00 €' },
-          { it: 'Polpettine della Nonna — alla Cacciatora', en: 'Grandma\'s Meatballs — alla Cacciatora (olives & rosemary)', price: '9,00 €' },
+          { it: 'Polpettine della Nonna — alla Cacciatora', en: 'Grandma\'s Meatballs — alla Cacciatora (olives & rosemary)', price: '10,00 €' },
           { it: 'Arrosticini Abruzzesi (pz.10)', en: 'Abruzzese Arrosticini — sheep meat skewers (10 pcs)', price: '13,00 €' },
         ]
       },
       {
         title: { it: 'Taglieri', en: 'Sharing Boards' },
         items: [
-          { it: 'Tagliere Nostrum — Prosciutto e Salumi Locali, Pecorini di diversa Stagionatura, Porchetta', en: 'Tagliere Nostrum — Ham, Local Cured Meats, Pecorino cheese of different ages, Porchetta', price: '18,00 €' },
+          { it: 'Tagliere Nostrum — Prosciutto e Salumi Locali, Pecorini di diversa Stagionatura, Porchetta', en: 'Tagliere Nostrum — Ham, Local Cured Meats, Pecorino cheese of different ages, Porchetta', price: '19,00 €' },
           { it: 'Tagliere delle Streghe — Speck d\'Anatra, Salame di Cervo, Mortadella di Cinghiale Grigliata, Bruschette Lardo Speziato', en: 'Tagliere delle Streghe — Duck Speck, Deer Salami, Grilled Wild Boar Mortadella, Spiced Lard Bruschetta', price: '19,00 €' },
           { it: 'Serviti con focaccia', en: 'Served with focaccia' },
           { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
@@ -89,7 +89,7 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Primi Piatti · Tutta la pasta è fatta in casa.', en: 'First Courses · All pasta is home-made.' },
         items: [
-          { it: 'Tonnarelli alla Mediterranea — Crema di Melanzane, Ricotta Salata, Olio alle erbe, Crunchy di Cipolla', en: 'Tonnarelli alla Mediterranea — Eggplant cream, Salted Ricotta, Herb oil, Crispy onion', price: '14,00 €' },
+          { it: 'Tonnarelli alla Mediterranea — Crema di Melanzane e Zucchine, Crunchy di Cipolla, Olio alle Erbe e Ricotta Salata', en: 'Tonnarelli alla Mediterranea — Eggplant & Courgette cream, Crispy Onion, Herb oil & Salted Ricotta', price: '14,00 €' },
           { it: 'Fettuccine al ragù di Scottona', en: 'Fettuccine with Scottona beef ragù', price: '14,00 €' },
           { it: 'Tonnarello Cacio e Pepe', en: 'Tonnarello Cacio e Pepe (pecorino & pepper)', price: '14,00 €' },
           { it: 'Maccheroncini alla Carbonara / Gricia', en: 'Maccheroni Carbonara / Gricia', price: '14,00 €' },
@@ -104,9 +104,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Tagliata di Controfiletto di Scottona — con Lardo speziato', en: 'Scottona Sirloin Cut — with spiced lard', price: '26,00 €' },
           { it: 'Tagliata di Controfiletto di Scottona — con salsa di Gorgonzola e Pepe verde', en: 'Scottona Sirloin Cut — Gorgonzola & green pepper sauce', price: '27,00 €' },
           { it: 'Brasato di Guancia di Vitella brasata al Cesanese — patate e verdure al burro', en: 'Braised Veal Cheek in Cesanese wine — buttered potatoes & vegetables', price: '20,00 €' },
-          { it: 'Stinchetto al forno con patate', en: 'Oven-baked Pork Knuckle with potatoes', price: '20,00 €' },
-          { it: 'Tagliata di Pollo alla griglia — rucola, pachino e grana', en: 'Grilled Chicken Cut — rocket, cherry tomatoes & parmesan', price: '18,00 €' },
-          { it: 'Tagliata di Pollo alla griglia — erbette di campo', en: 'Grilled Chicken Cut — wild field herbs', price: '16,00 €' },
+          { it: 'Stinchetto di Maiale — alla birra scura con mele e patate', en: 'Pork Knuckle — braised in dark beer with apples & potatoes', price: '20,00 €' },
           { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
         ]
       },
@@ -153,9 +151,10 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Insalate', en: 'Salads' },
         items: [
-          { it: 'Vivace — Bufala, Alici, Pomodorini, Melanzane, Datterini', en: 'Vivace — Bufala, Anchovies, Cherry tomatoes, Eggplant, Datterini', price: '9,00 €' },
+          { it: 'Vivace — Bufala, Alici, Pomodorini, Melanzane, Datterini', en: 'Vivace — Bufala, Anchovies, Cherry tomatoes, Eggplant, Datterini', price: '7,00 €' },
           { it: 'Pollo — Pollo alla Griglia, Olive, Datterini, Grana', en: 'Pollo — Grilled Chicken, Olives, Datterini, Parmesan', price: '9,00 €' },
           { it: 'Verde — Valeriana, Rughetta e Gentile con Datterini', en: 'Verde — Mixed leaves & Datterini tomatoes', price: '6,00 €' },
+          { it: 'Insalata Verde — Radicchio, Mele e Noci', en: 'Green Salad — Radicchio, Apples & Walnuts', price: '7,00 €' },
         ]
       },
       {
@@ -164,7 +163,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Sbriciolata — crema chantilly, Nutella o Frutti di bosco', en: 'Sbriciolata crumble — chantilly cream, Nutella or Wild berries', price: '6,00 €' },
           { it: 'Tiramisù Classico o alla Nutella', en: 'Tiramisù — Classic or Nutella', price: '6,00 €' },
           { it: 'Tortino al cioccolato — cuore caldo e gelato alla vaniglia', en: 'Warm chocolate cake — warm heart & vanilla ice cream', price: '7,00 €' },
-          { it: 'Ciambelline al vino bianco con Cannellino', en: 'White wine ring biscuits with Cannellino wine', price: '7,00 €' },
+          { it: 'Tozzetti alle Mandorle', en: 'Almond Tozzetti biscuits', price: '7,00 €' },
           { it: 'Pinsa alla Nutella', en: 'Pinsa with Nutella', price: '10,00 €' },
           { it: 'Pane fatto in casa e servizio', en: 'Home-made bread & service', price: '1,50 €' },
         ]
