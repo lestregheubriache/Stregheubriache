@@ -75,6 +75,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Polpettine della Nonna — Cacio e Pepe', en: 'Grandma\'s Meatballs — Cacio e Pepe (cheese & pepper)', price: '9,00 €' },
           { it: 'Polpettine della Nonna — alla Cacciatora', en: 'Grandma\'s Meatballs — alla Cacciatora (olives & rosemary)', price: '10,00 €' },
           { it: 'Arrosticini Abruzzesi (pz.10)', en: 'Abruzzese Arrosticini — sheep meat skewers (10 pcs)', price: '13,00 €' },
+          { it: 'Foglie di Borragine — in crosta di farina di grano con Spicy Mayo', en: 'Borage Leaves — wheat flour crust with Spicy Mayo', price: '8,00 €' },
         ]
       },
       {
