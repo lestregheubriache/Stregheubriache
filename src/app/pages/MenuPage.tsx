@@ -320,7 +320,7 @@ const MENU_SECTIONS: MenuSection[] = [
         items: [
           { it: 'La Dama Red Bear — Rossa Artigianale, 50cl', en: 'La Dama Red Bear — Craft Red Ale, 50cl', price: '8,00 €' },
           { it: 'La Dama La Ciao Frank — Quadrupel Artigianale, 33cl', en: 'La Dama La Ciao Frank — Craft Quadrupel, 33cl', price: '7,50 €' },
-          { it: 'La Dama La Bruna — Scura Artigianale, 33cl', en: 'La Dama La Bruna — Craft Dark, 33cl', price: '7,50 €' },
+          { it: 'La Bete Strong Beer — Doppio Malto, 33cl', en: 'La Bete Strong Beer — Double Malt, 33cl', price: '7,50 €' },
           { it: 'Guinness 33cl', en: 'Guinness 33cl', price: '6,00 €' },
           { it: 'Carlsberg 33cl', en: 'Carlsberg 33cl', price: '4,00 €' },
           { it: 'Corona 33cl', en: 'Corona 33cl', price: '5,00 €' },
