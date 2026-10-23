@@ -203,7 +203,7 @@ const MENU_SECTIONS: MenuSection[] = [
         title: { it: 'Vini Rossi', en: 'Red Wines' },
         items: [
           { it: 'Baccarossa Rosso IGT — Poggio Le Volpi · Frutti di bosco, spezie dolci e tabacco', en: 'Baccarossa Rosso IGT — Poggio Le Volpi · Wild berries, sweet spices & tobacco', price: '32,00 €' },
-          { it: 'Cesanese Lazio IGP BIO — Gabriele Magno · Note balsamiche, cacao e spezie dolci · (al momento non disponibile)', en: 'Cesanese Lazio IGP BIO — Gabriele Magno · Balsamic, cocoa & sweet spice notes · (currently unavailable)', price: '28,00 €' },
+          { it: 'Cesanese Lazio IGP BIO — Gabriele Magno · Note balsamiche, cacao e spezie dolci', en: 'Cesanese Lazio IGP BIO — Gabriele Magno · Balsamic, cocoa & sweet spice notes', price: '28,00 €' },
           { it: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Note frutti di bosco con un lieve sentore fumée. Al palato fresco, ma con un tannino evidente', en: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Wild berry notes with a light smoky hint. Fresh on the palate with evident tannins', price: '26,00 €' },
           { it: 'Cremera Roma DOC Rosso — Terre del Veio · Frutta rossa matura dal finale speziato, cacao e tabacco dolce', en: 'Cremera Roma DOC Rosso — Terre del Veio · Ripe red fruit with a spiced finish, cocoa and sweet tobacco', price: '22,00 €' },
           { it: 'Polluce Nero Buono — Cincinnato · Sapore delicato, armonico con elegante complessità', en: 'Polluce Nero Buono — Cincinnato · Delicate, harmonious flavour with elegant complexity', price: '21,00 €' },
