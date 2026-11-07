@@ -143,7 +143,7 @@ const MENU_SECTIONS: MenuSection[] = [
           { it: 'Orient Express — Carpaccio di Manzo, Insalata Iceberg, Salsa Mango e Curry', en: 'Orient Express — Beef Carpaccio, Iceberg Lettuce, Mango & Curry sauce', price: '10,00 €' },
           { it: 'Strega (un po\' piccante) — Pomodoro, Mozzarella, Melanzane, Pecorino semistagionato, Grana', en: 'Strega (slightly spicy) — Tomato, Mozzarella, Eggplant, Semi-aged Pecorino, Parmesan', price: '10,00 €' },
           { it: 'Vegetariana — Mozzarella, Zucchine, Melanzane, Datterini', en: 'Vegetarian — Mozzarella, Courgettes, Eggplant, Datterini tomatoes', price: '10,00 €' },
-          { it: 'La Ribelle — Porchetta, Cicoria ripassata, Salsa Mango Habanero', en: 'La Ribelle — Porchetta, Sautéed Cicoria, Mango Habanero sauce', price: '10,00 €' },
+          { it: 'La Ribelle — Porchetta, Cicoria ripassata, Salsa Mango e Curry', en: 'La Ribelle — Porchetta, Sautéed Cicoria, Mango & Curry sauce', price: '10,00 €' },
           { it: 'Mortazza — Mozzarella di Bufala, Mortadella di Cinghiale, Crema di Pistacchio', en: 'Mortazza — Bufala Mozzarella, Wild Boar Mortadella, Pistachio cream', price: '10,00 €' },
           { it: '666 (un po\' piccante) — Pomodoro, Mozzarella, N\'duja', en: '666 (slightly spicy) — Tomato, Mozzarella, N\'duja salami', price: '10,00 €' },
           { it: 'Focaccia', en: 'Focaccia flatbread', price: '5,00 €' },

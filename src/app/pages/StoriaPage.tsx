@@ -5,7 +5,6 @@ import Button from '../components/Button';
 import PlaceholderImage from '../components/PlaceholderImage';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import volteImg from '../../imports/6f66a16d-451a-4e44-8c80-8b1bf02b47d9.jpeg';
-import dolceImg from '../../imports/IMG20260426145419-1.jpg';
 import gianlucaImg from '../../imports/WhatsApp_Image_2026-06-15_at_12.22.34.jpeg';
 
 export default function StoriaPage() {
@@ -105,12 +104,6 @@ export default function StoriaPage() {
             </p>
           </div>
         </div>
-
-        <ImageWithFallback
-          src={dolceImg}
-          alt="Dolce della casa, dettaglio"
-          className="reveal aspect-[16/9] my-[60px] w-full object-cover"
-        />
 
         {/* Cap IV */}
         <div className="reveal grid grid-cols-[200px_1fr] gap-[64px] items-start mb-[80px] max-[860px]:grid-cols-1 max-[860px]:gap-[24px]">
